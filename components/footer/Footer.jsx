@@ -1,7 +1,7 @@
 import React from "react"
 import styles from "./Footer.module.scss"
 import Image from "next/image"
-import CustomButton from "../common/custombutton/customButton"
+import CustomButton from "../common/custombutton/CustomButton"
 import FooterColumn from "./footerColumn/FooterColumn"
 import SocialLinks from "./socialLinksColumn/SocialLinks"
 
