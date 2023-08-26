@@ -1,5 +1,5 @@
 import React from "react"
-import styles from "./customButton.module.scss"
+import styles from "./CustomButton.module.scss"
 import Image from "next/image"
 
 const CustomButton = ({ name, png, icon }) => {
