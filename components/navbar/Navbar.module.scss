@@ -1,0 +1,158 @@
+@import "../styleMixinComponents/mixins";
+
+.container {
+  @include devices(mobile) {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  @include devices(tablet) {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  @include devices(ipad) {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  @include devices(laptop) {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+}
+
+.hamburgerMenuDiv {
+  @include devices(mobile) {
+  }
+
+  @include devices(tablet) {
+  }
+
+  @include devices(ipad) {
+    display: none;
+  }
+
+  @include devices(laptop) {
+    display: none;
+  }
+}
+
+.logoDiv {
+  .logoImg {
+    @include devices(mobile) {
+      width: 90px;
+    }
+
+    @include devices(tablet) {
+      width: 130px;
+    }
+
+    @include devices(ipad) {
+      width: 130px;
+    }
+
+    @include devices(laptop) {
+      width: 150px;
+    }
+  }
+}
+
+.LogoSiblingDiv {
+  @include devices(mobile) {
+    display: none;
+  }
+
+  @include devices(tablet) {
+    display: none;
+  }
+
+  @include devices(ipad) {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    justify-content: space-between;
+  }
+
+  @include devices(laptop) {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    justify-content: space-between;
+  }
+}
+
+.navigationDiv {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  border: 1px solid #f1eeee;
+  border-radius: 10px;
+  height: 48px;
+  max-width: 700px;
+}
+.dropdownLocationsDiv {
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+
+  .locationImg {
+    width: 20px;
+    height: 25px;
+  }
+}
+.searchIconDiv {
+  border-left: 1px solid black;
+  opacity: 0.5;
+  padding-left: 10px;
+  width: 40px;
+  height: fit-content;
+
+  .searchImg {
+    width: 20px;
+    height: 25px;
+  }
+}
+
+.expandingInput {
+  display: flex;
+  align-items: center;
+  border: none;
+  padding: 5px;
+  outline: none;
+  font-size: 14px;
+}
+
+.loginLogoutDiv {
+  width: 150px;
+  ul {
+    display: flex;
+    align-items: center;
+    justify-self: flex-end;
+    li {
+      font-size: 18px;
+      padding: 8px;
+      opacity: 0.5;
+      font-family: Ok;
+      &:not(:last-child) {
+        margin-right: 10px; /* Add margin between the links */
+      }
+    }
+  }
+}

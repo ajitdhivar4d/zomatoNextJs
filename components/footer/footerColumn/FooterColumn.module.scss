@@ -1,0 +1,80 @@
+@import "/components/styleMixinComponents/mixins";
+
+.sample {
+  @include devices(mobile) {
+  }
+
+  @include devices(tablet) {
+  }
+
+  @include devices(ipad) {
+  }
+
+  @include devices(laptop) {
+  }
+}
+
+.commonStyles {
+  h2 {
+    @include devices(mobile) {
+      font-size: 14px;
+      margin-bottom: 8px;
+    }
+
+    @include devices(tablet) {
+      font-size: 0.7rem;
+      margin-bottom: 0;
+    }
+
+    @include devices(ipad) {
+      font-size: 0.9rem;
+      margin-bottom: 0;
+    }
+
+    @include devices(laptop) {
+      font-size: 1.2rem;
+      margin-bottom: 10px;
+    }
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  li {
+    @include devices(mobile) {
+      margin-bottom: 5px;
+      opacity: 0.7;
+      font-size: 13px;
+    }
+
+    @include devices(tablet) {
+      margin-bottom: 6px;
+      opacity: 0.7;
+      font-size: 10px;
+    }
+
+    @include devices(ipad) {
+      margin-bottom: 6px;
+      opacity: 0.7;
+      font-size: 10px;
+    }
+
+    @include devices(laptop) {
+      margin-bottom: 6px;
+      opacity: 0.7;
+      font-size: 14px;
+    }
+  }
+}
+
+.column {
+  @extend .commonStyles;
+}
+
+.ConditionColumn {
+  @extend .commonStyles;
+  margin-top: 30px;
+}

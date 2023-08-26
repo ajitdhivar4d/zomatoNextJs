@@ -1,0 +1,139 @@
+@import "../styleMixinComponents/mixins";
+
+.sample {
+  @include devices(mobile) {
+  }
+
+  @include devices(tablet) {
+  }
+
+  @include devices(ipad) {
+  }
+
+  @include devices(laptop) {
+  }
+}
+
+.container {
+  height: fit-content;
+  padding-top: 20px;
+}
+
+.socialLinksComponentDiv {
+  @include devices(mobile) {
+    display: none;
+  }
+
+  @include devices(tablet) {
+  }
+
+  @include devices(ipad) {
+  }
+
+  @include devices(laptop) {
+  }
+}
+
+.footerHead {
+  @include devices(mobile) {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  @include devices(tablet) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  @include devices(ipad) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  @include devices(laptop) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logoDiv {
+    .logoImage {
+      @include devices(mobile) {
+        width: 90px;
+        height: auto;
+      }
+
+      @include devices(tablet) {
+        width: 100px;
+        height: auto;
+      }
+
+      @include devices(ipad) {
+        width: 100px;
+        height: auto;
+      }
+
+      @include devices(laptop) {
+        width: 100px;
+        height: auto;
+      }
+    }
+  }
+
+  .CustomButtonDiv {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+}
+
+.gridSection {
+  padding: 10px;
+  @include devices(mobile) {
+    padding: 0;
+    margin-top: 20px;
+  }
+}
+
+.footerGridDiv {
+  @include devices(mobile) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+
+  @include devices(tablet) {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+  }
+
+  @include devices(ipad) {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+  }
+
+  @include devices(laptop) {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+  }
+}
+
+.FooterColumn {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  @include devices(mobile) {
+    padding: 0;
+  }
+}
+.footerCopyRightText {
+  font-size: 13px;
+  margin: 23px 0 13px 0;
+  opacity: 0.7;
+}

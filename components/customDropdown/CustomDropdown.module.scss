@@ -1,0 +1,43 @@
+.customDropdown {
+  position: relative;
+  display: inline-block;
+
+  button {
+    width: 30px;
+    height: fit-content;
+    .arrowDropImg {
+      width: 20px;
+      height: 25px;
+    }
+  }
+
+  .customDropdownMenu {
+    position: absolute;
+    padding: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    border-radius: 0.25rem;
+    overflow-y: auto;
+    max-height: 300px;
+    width: 300px;
+    left: -230px;
+    top: 48px;
+
+    li {
+      padding: 4px;
+      margin-bottom: 0.5rem;
+      a {
+        display: flex;
+        flex-direction: column;
+
+        .font-medium {
+          font-weight: 500;
+        }
+
+        .font-normal {
+          font-weight: normal;
+        }
+      }
+    }
+  }
+}
