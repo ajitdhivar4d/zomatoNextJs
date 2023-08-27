@@ -1,17 +1,27 @@
 "use client"
-import React from "react"
+import React, { useState } from "react"
 import styles from "./Navbar.module.scss"
 import Image from "next/image"
 import Link from "next/link"
 import CustomDropdown from "../customDropdown/CustomDropdown"
 import { GiHamburgerMenu } from "react-icons/gi"
+import ClickHamburgerMenuComponent from "../clickHamburgerMenuComponent/ClickHamburgerMenuComponent"
+import { AiOutlineClose } from "react-icons/ai"
 
 const Navbar = () => {
+  const [viewHamMenu, setViewHamMenu] = useState(false)
   return (
     <div className={styles.container}>
+      {/* /// */}
       <div className={styles.hamburgerMenuDiv}>
-        <GiHamburgerMenu />
+        {viewHamMenu ? (
+          <AiOutlineClose onClick={() => setViewHamMenu(!viewHamMenu)} />
+        ) : (
+          <GiHamburgerMenu onClick={() => setViewHamMenu(!viewHamMenu)} />
+        )}
       </div>
+      {viewHamMenu && <ClickHamburgerMenuComponent />}
+      {/* /// */}
       <div className={styles.logoDiv}>
         <Image
           src={"/zomato.png"}

@@ -1,0 +1,60 @@
+@import "/components/styleMixinComponents/mixins";
+
+.sample {
+  @include devices(mobile) {
+  }
+
+  @include devices(tablet) {
+  }
+
+  @include devices(ipad) {
+  }
+
+  @include devices(laptop) {
+  }
+}
+
+.MainDiv {
+  display: flex;
+  border-bottom: 1px solid rgb(215, 219, 224);
+}
+
+.optionDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 30px 0 0;
+  padding: 10px;
+  cursor: pointer;
+  @include devices(mobile) {
+    margin: 0 5px 0 0;
+    padding: 5px;
+  }
+}
+
+.imgDiv {
+  margin-right: 10px;
+
+  @include devices(mobile) {
+    margin-right: 5px;
+  }
+  .img {
+    width: 60px;
+    height: fit-content;
+    @include devices(mobile) {
+      width: 30px;
+      height: fit-content;
+    }
+  }
+}
+
+.textH2 {
+  font-size: 20px;
+  @include devices(mobile) {
+    font-size: 15px;
+  }
+}
+
+.underline {
+  border-bottom: 1px solid rgb(199, 98, 61);
+}

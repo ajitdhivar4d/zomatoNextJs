@@ -1,6 +1,7 @@
 @import "../styleMixinComponents/mixins";
 
 .container {
+  position: relative;
   @include devices(mobile) {
     height: 70px;
     display: flex;
