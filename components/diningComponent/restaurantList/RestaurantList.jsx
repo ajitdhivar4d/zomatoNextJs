@@ -3,6 +3,7 @@
 import React, { useEffect, useState } from "react"
 import styles from "./RestaurantList.module.scss"
 import Image from "next/image"
+import { CiStar } from "react-icons/ci"
 
 const RestaurantList = () => {
   const [restaurants, setRestaurants] = useState(null)
@@ -20,15 +21,9 @@ const RestaurantList = () => {
     return <div>Loading...</div>
   }
 
-  const getShortenedAddress = (fullAddress) => {
-    const addressParts = fullAddress.split(",")
-    // Display the first two parts of the address
-    return addressParts.slice(0, 2).join(",")
-  }
-
   return (
     <div className={styles.mainDiv}>
-      <h1>Trending dining restaurants in Jaipur</h1>
+      <h1>Nightlife Restaurants in Jaipur</h1>
       <div className={styles.restaurantGridDiv}>
         {restaurants.map((restaurant) => (
           <div key={restaurant._id} className={styles.restaurantCard}>
@@ -37,8 +32,8 @@ const RestaurantList = () => {
                 src={restaurant.image_url}
                 alt={restaurant.name}
                 className={styles.restaurantCardImage}
-                width={150}
-                height={50}
+                width={300}
+                height={200}
                 priority="true"
               />
             </div>
@@ -53,43 +48,16 @@ const RestaurantList = () => {
                     className={styles.starIcon}
                     width={150}
                     height={50}
-                    priority="true"
                   />
                 </div>
               </div>
             </div>
-            {/* <div className={styles.addressPriceDiv}>
-              <p className={styles.addressP}>
-                {getShortenedAddress(restaurant.address)}
-              </p>
-              <div className={styles.priceDiv}>{restaurant.price}</div>
-            </div> 
-            .addressPriceDiv {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-top: 10px;
-  gap: 10px;
-  @include devices(mobile) {
-    gap: 10px;
-    margin-top: 5px;
-  }
-}
+            <div></div>
 
-.addressP {
-  font-size: 18px;
-  @include devices(mobile) {
-    font-size: 10px;
-  }
-}
-
-.priceDiv {
-  font-size: 14px;
-  @include devices(mobile) {
-    font-size: 8px;
-  }
-}
-            */}
+            {/* <p>Address: {restaurant.address}</p>
+            <p>Rating: {restaurant.rating}</p>
+            <p>Total Reviews: {restaurant.total_reviews}</p>
+            <p>Price Range: {restaurant.price}</p> */}
           </div>
         ))}
       </div>
