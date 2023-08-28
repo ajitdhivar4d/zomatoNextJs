@@ -58,17 +58,12 @@ const RestaurantList = () => {
                 </div>
               </div>
             </div>
-            <div className={styles.addressPriceDiv}>
+            {/* <div className={styles.addressPriceDiv}>
               <p className={styles.addressP}>
                 {getShortenedAddress(restaurant.address)}
               </p>
               <div className={styles.priceDiv}>{restaurant.price}</div>
-            </div>
-
-            {/* <p>Address: {restaurant.address}</p>
-            <p>Rating: {restaurant.rating}</p>
-            <p>Total Reviews: {restaurant.total_reviews}</p>
-            <p>Price Range: {restaurant.price}</p> */}
+            </div> */}
           </div>
         ))}
       </div>
