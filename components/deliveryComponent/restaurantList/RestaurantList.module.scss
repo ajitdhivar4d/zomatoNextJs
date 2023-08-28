@@ -27,9 +27,19 @@
 
 .restaurantGridDiv {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
   @include devices(mobile) {
     grid-template-columns: repeat(1, 1fr);
+  }
+  @include devices(tablet) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @include devices(ipad) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @include devices(laptop) {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
