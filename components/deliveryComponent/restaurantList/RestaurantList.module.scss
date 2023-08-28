@@ -40,6 +40,7 @@
     padding: 10px;
     margin: 10px 5px;
   }
+
   border-radius: 15px;
   background-color: #fff;
   transition: box-shadow 0.3s, background-color 0.3s;
@@ -60,12 +61,12 @@
 .restaurantCardImage {
   width: 328px;
   height: 200px;
-  @include devices(mobile) {
-    width: 2980px;
-    height: 170px;
-  }
   border-radius: 15px;
   object-fit: cover;
+  @include devices(mobile) {
+    width: 298px;
+    height: 170px;
+  }
 }
 
 .restroNameRatDiv {
