@@ -63,7 +63,33 @@ const RestaurantList = () => {
                 {getShortenedAddress(restaurant.address)}
               </p>
               <div className={styles.priceDiv}>{restaurant.price}</div>
-            </div> */}
+            </div> 
+            .addressPriceDiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+  gap: 10px;
+  @include devices(mobile) {
+    gap: 10px;
+    margin-top: 5px;
+  }
+}
+
+.addressP {
+  font-size: 18px;
+  @include devices(mobile) {
+    font-size: 10px;
+  }
+}
+
+.priceDiv {
+  font-size: 14px;
+  @include devices(mobile) {
+    font-size: 8px;
+  }
+}
+            */}
           </div>
         ))}
       </div>

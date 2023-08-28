@@ -50,6 +50,7 @@
     padding: 10px;
     margin: 10px 5px;
   }
+
   border-radius: 15px;
   background-color: #fff;
   transition: box-shadow 0.3s, background-color 0.3s;
@@ -95,7 +96,6 @@
   justify-content: space-between;
   align-items: center;
   margin-top: 8px;
-  padding: 5px;
 
   .restroNameH4 {
     font-size: 17px;
@@ -150,31 +150,5 @@
         }
       }
     }
-  }
-}
-
-.addressPriceDiv {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-top: 10px;
-  gap: 10px;
-  @include devices(mobile) {
-    gap: 10px;
-    margin-top: 5px;
-  }
-}
-
-.addressP {
-  font-size: 18px;
-  @include devices(mobile) {
-    font-size: 10px;
-  }
-}
-
-.priceDiv {
-  font-size: 14px;
-  @include devices(mobile) {
-    font-size: 8px;
   }
 }
