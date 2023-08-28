@@ -3,7 +3,6 @@
 import React, { useEffect, useState } from "react"
 import styles from "./RestaurantList.module.scss"
 import Image from "next/image"
-import { CiStar } from "react-icons/ci"
 
 const RestaurantList = () => {
   const [restaurants, setRestaurants] = useState(null)
@@ -52,12 +51,10 @@ const RestaurantList = () => {
                 </div>
               </div>
             </div>
-            <div></div>
-
-            {/* <p>Address: {restaurant.address}</p>
-            <p>Rating: {restaurant.rating}</p>
-            <p>Total Reviews: {restaurant.total_reviews}</p>
-            <p>Price Range: {restaurant.price}</p> */}
+            <div className={styles.addressPriceDiv}>
+              <p className={styles.addressP}>{restaurant.address}</p>
+              <div className={styles.priceDiv}>{restaurant.price}</div>
+            </div>
           </div>
         ))}
       </div>
