@@ -8,7 +8,7 @@ const DeliveryComponent = () => {
     <div>
       <FoodImageCarousel />
       <TopBrandsImageCarousel />
-      <RestaurantList />
+      {/* <RestaurantList /> */}
     </div>
   )
 }
