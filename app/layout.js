@@ -2,7 +2,7 @@ import Navbar from "@/components/navbar/Navbar"
 import "./globals.css"
 import { Inter } from "next/font/google"
 import Footer from "@/components/footer/Footer"
-import {} from "../components/styleMixinComponents/RootLayout.scss"
+import styles from "../components/styleMixinComponents/RootLayout.module.scss"
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -15,8 +15,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className="lgContainer">
-          <div className="justify-center">
+        <div className={styles.lgContainer}>
+          <div className={styles.justifyCenter}>
             <Navbar />
             {children}
             <Footer />

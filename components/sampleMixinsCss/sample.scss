@@ -1,0 +1,15 @@
+@import "mixins-path";
+
+.sample {
+  @include devices(mobile) {
+  }
+
+  @include devices(tablet) {
+  }
+
+  @include devices(ipad) {
+  }
+
+  @include devices(laptop) {
+  }
+}

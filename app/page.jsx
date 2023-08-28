@@ -1,4 +1,3 @@
-import DeliveryComponent from "@/components/deliveryComponent/DeliveryComponent"
 import VenueViewSelector from "@/components/venueViewSelector/VenueViewSelector"
 
 export default function Home() {
@@ -6,7 +5,6 @@ export default function Home() {
     <div>
       Main page
       <VenueViewSelector />
-      <DeliveryComponent />
     </div>
   )
 }

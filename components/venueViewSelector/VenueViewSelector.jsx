@@ -2,9 +2,12 @@
 import React, { useState } from "react"
 import styles from "./VenueViewSelector.module.scss"
 import Image from "next/image"
+import DeliveryComponent from "../deliveryComponent/DeliveryComponent"
+import DiningComponent from "../diningComponent/DiningComponent"
+import NightLifeComponent from "../nightLifeComponent/NightLifeComponent"
 
 const VenueViewSelector = () => {
-  const [activeIndex, setActiveIndex] = useState(null)
+  const [activeIndex, setActiveIndex] = useState(0)
 
   const options = [
     {
@@ -28,30 +31,55 @@ const VenueViewSelector = () => {
     setActiveIndex(index)
   }
 
+  let activeComponent = null
+
+  switch (activeIndex) {
+    case 0:
+      activeComponent = <DeliveryComponent />
+      break
+    case 1:
+      activeComponent = <DiningComponent />
+      break
+    case 2:
+      activeComponent = <NightLifeComponent />
+      break
+    default:
+      activeComponent = <DeliveryComponent />
+      break
+  }
+
   return (
-    <div className={styles.MainDiv}>
-      {options.map((option, index) => (
-        <div
-          key={index}
-          className={` ${styles.optionDiv} ${
-            activeIndex === index ? styles.underline : ""
-          }`}
-          onClick={() => handleClick(index)}
-        >
-          <div className={styles.imgDiv}>
-            <Image
-              src={activeIndex === index ? option.colorImage : option.darkImage}
-              width={150}
-              height={50}
-              alt=""
-              priority
-              className={styles.img}
-            />
+    <>
+      <div className={styles.MainDiv}>
+        {options.map((option, index) => (
+          <div
+            key={index}
+            className={` ${styles.optionDiv} ${
+              activeIndex === index ? styles.underline : ""
+            }`}
+            onClick={() => handleClick(index)}
+          >
+            <div className={styles.imgDiv}>
+              <Image
+                src={
+                  activeIndex === index ? option.colorImage : option.darkImage
+                }
+                width={150}
+                height={50}
+                alt=""
+                priority
+                className={styles.img}
+              />
+            </div>
+            <h2 className={styles.textH2}>{option.text}</h2>
           </div>
-          <h2 className={styles.textH2}>{option.text}</h2>
-        </div>
-      ))}
-    </div>
+        ))}
+      </div>
+      {/* <DeliveryComponent /> */}
+      {/* <DiningComponent /> */}
+      {/* <NightLifeComponent /> */}
+      {activeComponent}
+    </>
   )
 }
 

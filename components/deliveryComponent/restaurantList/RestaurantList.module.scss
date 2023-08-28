@@ -1,0 +1,131 @@
+@import "/components//styleMixinComponents/mixins";
+
+.sample {
+  @include devices(mobile) {
+  }
+
+  @include devices(tablet) {
+  }
+
+  @include devices(ipad) {
+  }
+
+  @include devices(laptop) {
+  }
+}
+
+.mainDiv {
+  h1 {
+    font-size: 30px;
+    margin: 10px 0 30px 0;
+    @include devices(mobile) {
+      font-size: 16px;
+      margin: 5px 0 10px 0;
+    }
+  }
+}
+
+.restaurantGridDiv {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  @include devices(mobile) {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+.restaurantCard {
+  padding: 10px;
+  margin: 20px 10px;
+  @include devices(mobile) {
+    padding: 10px;
+    margin: 10px 5px;
+  }
+  border-radius: 15px;
+  background-color: #fff;
+  transition: box-shadow 0.3s, background-color 0.3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.restaurantCard:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e1dbdb;
+  background-color: #f3efef;
+}
+
+.restaurantCardImgContainer {
+}
+
+.restaurantCardImage {
+  width: 328px;
+  height: 200px;
+  @include devices(mobile) {
+    width: 2980px;
+    height: 170px;
+  }
+  border-radius: 15px;
+  object-fit: cover;
+}
+
+.restroNameRatDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 8px;
+
+  .restroNameH4 {
+    font-size: 17px;
+    margin: 8px 0 6px 0;
+    @include devices(mobile) {
+      font-size: 12px;
+      margin: 0;
+    }
+  }
+
+  .restroRatDiv {
+    display: flex;
+    justify-content: end;
+    width: 60px;
+    @include devices(mobile) {
+      width: 60px;
+    }
+
+    .ratGreenDiv {
+      background: #267e3e;
+      padding: 0 4px;
+      border-radius: 5px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 5px;
+      color: white;
+      @include devices(mobile) {
+        border-radius: 5px;
+        display: flex;
+        justify-content: space-between;
+        padding: 5px;
+        color: white;
+        width: auto;
+      }
+
+      .ratTextDiv {
+        font-size: 13px;
+        margin: 0 3px 0 0;
+        @include devices(mobile) {
+          font-size: 9px;
+          margin: 0 2px 0 0;
+        }
+      }
+
+      .starIcon {
+        width: auto;
+        height: 10px;
+        @include devices(mobile) {
+          width: auto;
+          height: 9px;
+        }
+      }
+    }
+  }
+}

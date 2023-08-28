@@ -1,0 +1,108 @@
+@import "/components/styleMixinComponents/mixins";
+
+.sample {
+  @include devices(mobile) {
+  }
+
+  @include devices(tablet) {
+  }
+
+  @include devices(ipad) {
+  }
+
+  @include devices(laptop) {
+  }
+}
+
+.mainDiv {
+  padding: 10px;
+  @include devices(mobile) {
+    padding: 5px;
+  }
+  h2 {
+    @include devices(mobile) {
+      margin-bottom: 16px;
+      font-size: 16px;
+    }
+
+    @include devices(tablet) {
+      margin-bottom: 18px;
+      font-size: 18px;
+    }
+
+    @include devices(ipad) {
+      margin-bottom: 20px;
+      font-size: 20px;
+    }
+
+    @include devices(laptop) {
+      margin-bottom: 30px;
+      font-size: 30px;
+    }
+  }
+}
+
+.gridDiv {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  @include devices(mobile) {
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+  }
+
+  @include devices(tablet) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  @include devices(ipad) {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  @include devices(laptop) {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
+
+.gridItemDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .gridItemImg {
+    border-radius: 50%;
+    @include devices(mobile) {
+      width: 60px;
+      height: fit-content;
+    }
+
+    @include devices(tablet) {
+      width: 80px;
+      height: fit-content;
+    }
+
+    @include devices(ipad) {
+      width: 130px;
+      height: fit-content;
+    }
+
+    @include devices(laptop) {
+      width: 150px;
+      height: fit-content;
+    }
+  }
+
+  h1 {
+    margin: 10px;
+    @include devices(mobile) {
+      margin: 5px;
+      font-size: 12px;
+    }
+  }
+
+  Image {
+    width: 50px;
+    height: fit-content;
+  }
+}

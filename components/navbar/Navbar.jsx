@@ -24,7 +24,7 @@ const Navbar = () => {
       {/* /// */}
       <div className={styles.logoDiv}>
         <Image
-          src={"/zomato.png"}
+          src={"/nav-logo-zomato.webp"}
           width={100}
           height={100}
           alt="zomato logo png"
@@ -36,7 +36,7 @@ const Navbar = () => {
         <div className={styles.navigationDiv}>
           <div className={styles.dropdownLocationsDiv}>
             <Image
-              src={"/location.svg"}
+              src={"/nav-location.svg"}
               width={100}
               height={100}
               alt="location logo png"
@@ -53,7 +53,7 @@ const Navbar = () => {
 
           <div className={styles.searchIconDiv}>
             <Image
-              src={"/search.svg"}
+              src={"/nav-search-icon.svg"}
               width={100}
               height={100}
               alt="search logo png"

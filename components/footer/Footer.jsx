@@ -38,7 +38,7 @@ const Footer = () => {
       <div className={styles.footerHead}>
         <div className={styles.logoDiv}>
           <Image
-            src={"/zomato.png"}
+            src={"/nav-logo-zomato.webp"}
             width={150}
             height={50}
             alt="zomato logo png"
