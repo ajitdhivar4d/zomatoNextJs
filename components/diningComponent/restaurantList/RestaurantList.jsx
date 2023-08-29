@@ -8,7 +8,7 @@ const RestaurantList = () => {
   const [restaurants, setRestaurants] = useState(null)
   const apiUrl = process.env.NEXT_PUBLIC_API_URL
   useEffect(() => {
-    fetch(`${apiUrl}/api/restaurants`)
+    fetch(`${apiUrl}/api/diningRestaurantApi`)
       .then((response) => response.json())
       .then((data) => {
         setRestaurants(data.restaurants) // Update to access data.restaurants

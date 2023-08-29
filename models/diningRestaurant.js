@@ -1,6 +1,6 @@
 import mongoose, { Schema } from "mongoose"
 
-const restaurantSchema = new Schema(
+const diningRestaurantSchema = new Schema(
   {
     id: {
       type: Number,
@@ -32,10 +32,15 @@ const restaurantSchema = new Schema(
     listing_url: String,
     created_at: String,
   },
-  { timestamps: true },
+  { timestamps: true, collection: "diningRestaurants" },
 )
 
-const Restaurant =
-  mongoose.models.restaurants || mongoose.model("restaurants", restaurantSchema)
+const DiningRestaurant =
+  mongoose.models.DiningRestaurant ||
+  mongoose.model(
+    "DiningRestaurant",
+    diningRestaurantSchema,
+    "diningRestaurants",
+  )
 
-export default Restaurant
+export default DiningRestaurant

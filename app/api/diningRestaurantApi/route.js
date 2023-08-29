@@ -1,5 +1,5 @@
 import { connectMongoDB } from "@/lib/mongodb"
-import Restaurant from "@/models/restaurant"
+import DiningRestaurant from "@/models/diningRestaurant"
 import { NextResponse } from "next/server"
 
 /////GET///////
@@ -7,7 +7,7 @@ export const GET = async (req) => {
   try {
     await connectMongoDB()
     // Use the Restaurant model to fetch data
-    const restaurants = await Restaurant.find()
+    const restaurants = await DiningRestaurant.find()
 
     // console.log("Fetched Restaurants:", restaurants)
 
