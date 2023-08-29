@@ -1,3 +1,4 @@
+"use client"
 import React from "react"
 import styles from "./FoodImageCarousel.module.scss"
 import Image from "next/image"
@@ -29,20 +30,24 @@ const gridItems = [
   },
 ]
 
-const FoodImageCarousel = () => {
+const FoodImageCarousel = ({ category, setCategory }) => {
   return (
     <div className={styles.mainDiv}>
       <h2>Inspiration for your first order</h2>
       <div className={styles.gridDiv}>
         {gridItems.map((item, index) => (
-          <div key={index} className={styles.gridItemDiv}>
+          <div
+            key={index}
+            className={styles.gridItemDiv}
+            onClick={() => setCategory(item.name)}
+          >
             <Image
               src={item.img}
               width={150}
               height={50}
               alt={`${item.name} carousel image`}
               className={styles.gridItemImg}
-              priority="true"
+              priority={true}
             />
             {item.name && <h1>{item.name}</h1>}
           </div>

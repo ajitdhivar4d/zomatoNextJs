@@ -1,0 +1,484 @@
+[
+  {
+    "name": "Rawat Mishthan Bhandar",
+    "rating": 4.3,
+    "restroImgUrl": "https://b.zmtcdn.com/data/pictures/chains/0/100910/c996bd831916a8de5b9bfe7cd7d5dadd.jpg?fit=around|771.75:416.25&crop=771.75:416.25;*,*",
+    "numDiningReviews": 0,
+    "diningRating": 0,
+    "numDeliveryReviews": 1325,
+    "deliveryRating": 4.3,
+    "categories": [
+      "Fast Food",
+      "Street Food",
+      "South Indian, Chinese",
+      "North Indian",
+      "Mithai"
+    ],
+    "location": "Charan Ture & Travels, WQCW+FVX, polo victory ke samne Jaipur Raj, Jaipur",
+    "openingHours": "11:00 AM – 9:00 PM (Today)",
+    "menu": [
+      {
+        "name": "Snacks",
+        "description": "Enjoy",
+        "items": [
+          {
+            "name": "Jalebi (Snacks)",
+            "description": "A popular Indian sweet that captivates with its crispy texture and sweet syrupy",
+            "price": 450,
+            "votes": 50,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/376/208ffb43cd671cdd05e64b4986b2c376.jpg?fit=around|130:130&crop=130:130;*,*"
+          },
+          {
+            "name": "Khaman Dhokla",
+            "description": "Experience the tangy and fluffy goodness of Khaman Dhokla, a popular Gujarati snack ... read more",
+            "price": 75,
+            "votes": 30,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/9cb/ff6ae056c1bc8183ab00c301651559cb.jpg?fit=around|130:130&crop=130:130;*,*"
+          },
+          {
+            "name": "Mawa Kachori",
+            "description": "Indulge in the rich and delectable flavors of Mawa Kachori, a traditional Indian ... read more",
+            "price": 65,
+            "votes": 113,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/cf0/b76c19da8234754ef3e35387c3134cf0.jpg?fit=around|130:130&crop=130:130;*,*"
+          },
+          {
+            "name": "Mirchi Bada",
+            "description": "Experience the fiery and flavorful delight of Mirchi Bada, a popular Indian snack ... read more",
+            "price": 40,
+            "votes": 96,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/bcd/28ad7df384a9793a04c14f22a03c1bcd.jpg?fit=around|130:130&crop=130:130;*,*"
+          },
+          {
+            "name": "Pyaz Kachori",
+            "description": "Indulge in the delightful flavors of Pyaz Kachori, a popular Indian snack that ... read more",
+            "price": 45,
+            "votes": 856,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/30d/c7876207d36fb05a935923a11693c30d.jpg?fit=around|130:130&crop=130:130;*,*"
+          },
+          {
+            "name": "Samosa",
+            "description": "Treat yourself to the classic and irresistible taste of Samosa, a popular Indian ... read more",
+            "price": 40,
+            "votes": 112,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/1d7/e588a55b1c25483160ce3845f885a1d7.jpg?fit=around|130:130&crop=130:130;*,*"
+          }
+        ]
+      },
+      {
+        "name": "Ghewar Special",
+        "description": "A traditional Rajasthani sweet known for its intricate honeycomb-like texture. Made from a ... read more",
+        "items": [
+          {
+            "name": "Ghewar Meetha",
+            "description": "A traditional Rajasthani sweet that is a feast for the senses. Made from ... read more",
+            "price": 195,
+            "votes": 81,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/14b/5425c48896589449c060a23f1adc014b.jpg?fit=around|130:130&crop=130:130;*,*"
+          },
+          {
+            "name": "Ghewar Rabdi",
+            "description": "A traditional Rajasthani dessert that combines the delicate sweetness of Ghewar with the ... read more",
+            "price": 195,
+            "votes": 189,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/ac5/2f674be1e7d3a506171049d78368eac5.jpg?fit=around|130:130&crop=130:130;*,*"
+          }
+        ]
+      },
+      {
+        "name": "Bangali Sweets",
+        "description": "Enjoy Bangali Sweets",
+        "items": [
+          {
+            "name": "Anurodh",
+            "description": "enjoy",
+            "price": 125,
+            "votes": 81,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/98e/86796b44a4aadcc1945af370b800a98e.jpg?fit=around|130:130&crop=130:130;*,*"
+          },
+          {
+            "name": "Badam Bhog",
+            "description": "A delightful Indian sweet made with premium almonds, sugar, and a touch of ... read more",
+            "price": 131,
+            "votes": 189,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/ffa/eb50b142225c10f7182e38b4d43a2ffa.jpg?fit=around|130:130&crop=130:130;*,*"
+          },
+          {
+            "name": "Chamcham",
+            "description": "A traditional Bengali sweet crafted from chhana (cottage cheese) and immersed in a ... read more",
+            "price": 131,
+            "votes": 180,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/aba/015b0478624ee776cbe2666fb3a0aaba.jpg?fit=around|130:130&crop=130:130;*,*"
+          },
+          {
+            "name": "Chena Murki",
+            "description": "A traditional Indian sweet made from freshly prepared chhana (cottage cheese) and coated ... read moreA traditional Bengali sweet crafted from chhana (cottage cheese) and immersed in a ... read more",
+            "price": 131,
+            "votes": 205,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/dcf/c08d60b1f0aefab0f02967ecef2b5dcf.jpg?fit=around|130:130&crop=130:130;*,*"
+          },
+          {
+            "name": "Chhena Tost",
+            "description": "A popular Bengali dessert made with chhana (cottage cheese) and bread. These delectable ... read more",
+            "price": 119,
+            "votes": 45,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/6e2/65b33c1f76b26b9921a7844c4b4506e2.jpg?fit=around|130:130&crop=130:130;*,*"
+          }
+        ]
+      },
+      {
+        "name": "Barfi",
+        "description": "Enjoy Barfi",
+        "items": [
+          {
+            "name": "Akhrot Barfi",
+            "description": "A delectable Indian sweet made with walnuts (akhrot) and a perfect blend of ... read more",
+            "price": 125,
+            "votes": 81,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/2e7/f679e9ec39efb615c50e524e622e62e7.jpg?fit=around|130:130&crop=130:130;*,*"
+          },
+          {
+            "name": "Doda Barfi",
+            "description": "Indulge in the delightful taste of Doda Barfi, a traditional Indian sweet that ... read more",
+            "price": 125,
+            "votes": 189,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/ef4/d3c5da966d95cc2098ec428713c55ef4.jpg?fit=around|130:130&crop=130:130;*,*"
+          },
+          {
+            "name": "Kalakand Barfi",
+            "description": "A classic Indian sweet made with condensed milk and paneer (Indian cottage cheese). ... read moree",
+            "price": 125,
+            "votes": 96,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/651/e635377655299ed3d432ed2a8fde5651.jpg?fit=around|130:130&crop=130:130;*,*"
+          }
+        ]
+      },
+      {
+        "name": "Chat",
+        "description": "Enjoy Chat",
+        "items": [
+          {
+            "name": "Bhalla Papri",
+            "description": "Experience the refreshing combination of flavors in Bhalla Papri, a classic chaat dish ... read more",
+            "price": 150,
+            "votes": 81,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/b24/51ad3e25a6007f2ab7839330fd4d7b24.jpg?fit=around|130:130&crop=130:130;*,*"
+          },
+          {
+            "name": "Bhel Puri",
+            "description": "emjoy",
+            "price": 125,
+            "votes": 189,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/448/663f5883385c5082833c7500cd82c448.jpg?fit=around|130:130&crop=130:130;*,*"
+          },
+          {
+            "name": "Dahi Bada",
+            "description": "Delight in the soft and spongy Dahi Bada, made with lentil dumplings soaked ... read more",
+            "price": 150,
+            "votes": 96,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/d69/e43135d49fe6ce85e3c05b7666735d69.jpg?fit=around|130:130&crop=130:130;*,*"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Baalti Bhar Ke By Kebabs & Curries Company",
+    "rating": 4.1,
+    "restroImgUrl": "https://b.zmtcdn.com/data/pictures/chains/9/20155339/d5c4074d58329ffb916d93c8d8d8e7fa.jpeg?fit=around|771.75:416.25&crop=771.75:416.25;*,*",
+    "numDiningReviews": 82,
+    "diningRating": 4.1,
+    "numDeliveryReviews": 643,
+    "deliveryRating": 4.1,
+    "categories": ["North Indian", " Mughlai, Biryani", "Rolls"],
+    "location": "Neelkanth Apartments, 1, Sawain Mansingh Road,, 22 Godam Cir, Durgadas Colony, C Scheme, Ashok Nagar, Jaipur, Rajasthan 302001",
+    "openingHours": "1:00 PM – 4:00 AM (Today)",
+    "menu": [
+      {
+        "name": "Starters",
+        "description": "Enjoy",
+        "items": [
+          {
+            "name": "Chilli Paneer Dry",
+            "description": "Paneer prepared with onions and hot chillies, enhanced with condiments.",
+            "price": 345,
+            "votes": 50,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/a8e/976bff522cfa5a60fc8c18defbd69a8e.jpg?fit=around|130:130&crop=130:130;*,*"
+          },
+          {
+            "name": "Honey Chilli Potato",
+            "description": "Sweet, spicy & sour crispy potato appetiser.",
+            "price": 265,
+            "votes": 30,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/7d4/8af12525e19bbba6afeb8d5c352a77d4.jpg?fit=around|130:130&crop=130:130;*,*"
+          },
+          {
+            "name": "Malai Soya Chaap",
+            "description": "Soyabean chunks stuffed with white marinated cottage cheese & process cheese cooked in ... read more",
+            "price": 245,
+            "votes": 6,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/40a/0c38fdba5632da1c00a98a49a6f0340a.jpg?fit=around|130:130&crop=130:130;*,*"
+          },
+          {
+            "name": "Paneer Malai Tikka",
+            "description": "A Paneer dish that is cooked in a thick cream.",
+            "price": 350,
+            "votes": 96,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/1cb/0324d6a186f6132c562245250d4b31cb.jpg?fit=around|130:130&crop=130:130;*,*"
+          },
+          {
+            "name": "Paneer Tikka",
+            "description": "Indian tandoori spices marinated cottage cheese, cooked in clayoven.",
+            "price": 315,
+            "votes": 6,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/3f6/e481a2c1406729dfabb56ddc8bd143f6.jpg?fit=around|130:130&crop=130:130;*,*"
+          },
+          {
+            "name": "Tandoori Aloo",
+            "description": " ... read more",
+            "price": 295,
+            "votes": 5,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/c13/2e2d8647b839c65be64062098b9e0c13.jpg?fit=around|130:130&crop=130:130;*,*"
+          }
+        ]
+      },
+      {
+        "name": "Main Course",
+        "description": "VEG MAIN COURSE",
+        "items": [
+          {
+            "name": "Dal Fry",
+            "description": "One of the most popular Indian dishes prepared with Lentils tempered with spices ... read more",
+            "price": 325,
+            "votes": 7,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/e6c/69dc281209d90365886b78825ba82e6c.jpg?fit=around|130:130&crop=130:130;*,*"
+          },
+          {
+            "name": "Dal Makhani",
+            "description": "A dish originating from the Punjab region of the Indian subcontinent cooked with ... read more",
+            "price": 180,
+            "votes": 189,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/f7d/f4925bda02458158a7bfc9873f9d5f7d.jpg?fit=around|130:130&crop=130:130;*,*"
+          }
+        ]
+      },
+      {
+        "name": "Biryani By KCCO",
+        "description": "KCCO SPECIAL BIRYANI",
+        "items": [
+          {
+            "name": "KCCO Special Keema Biryani",
+            "description": "Served with burani raita & laccha pyaz or nimboo.",
+            "price": 455,
+            "votes": 81,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/609/1290af6bba477793cfaa67881e2cf609.jpg?fit=around|130:130&crop=130:130;*,*"
+          },
+          {
+            "name": "KCCO Special Murg Biryani",
+            "description": "Served with burani raita & laccha pyaz or nimboo.",
+            "price": 430,
+            "votes": 189,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/eb4/b9a221fe4b5f1e30ac8a041acf233eb4.jpg?fit=around|130:130&crop=130:130;*,*"
+          },
+          {
+            "name": "KCCO Special Veg. Biryani",
+            "description": "Served with burani raita & laccha pyaz or nimboo.",
+            "price": 325,
+            "votes": 18,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/6e8/480dbab8d8342fa99398bf1868e136e8.jpg?fit=around|130:130&crop=130:130;*,*"
+          },
+          {
+            "name": "Chicken Tikka Biryani",
+            "description": "Served with burani raita & laccha pyaz or nimboo.",
+            "price": 415,
+            "votes": 205,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/a9e/a17becc4c00e476c4e5eeeab7aa1ea9e.jpg?fit=around|130:130&crop=130:130;*,*"
+          },
+          {
+            "name": "Lagan Murg Biryani [Boneless]",
+            "description": "Served with burani raita & laccha pyaz or nimboo.",
+            "price": 360,
+            "votes": 45,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/2e9/8f1ae2bcac663b35bc802b9f13e4f2e9.jpg?fit=around|130:130&crop=130:130;*,*"
+          }
+        ]
+      },
+      {
+        "name": "Rolls By KCCO",
+        "description": "VEGGIE ROLLS",
+        "items": [
+          {
+            "name": "Aloo Masala Roll",
+            "description": "All Rolls come in a homemade Crispy & Flaky Laccha Tawa Paratha",
+            "price": 95,
+            "votes": 9,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/e32/811e03d9aa3e22842d32dd07fa466e32.jpg?fit=around|130:130&crop=130:130;*,*"
+          },
+          {
+            "name": "Double Aloo Cheese Roll",
+            "description": "All Rolls come in a homemade Crispy & Flaky Laccha Tawa Paratha",
+            "price": 135,
+            "votes": 189,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/5bd/11dd7751ef2ee75463163b17311925bd.jpg?fit=around|130:130&crop=130:130;*,*"
+          },
+          {
+            "name": "Malai Soya Chaap Roll",
+            "description": "All Rolls come in a homemade Crispy & Flaky Laccha Tawa Paratha",
+            "price": 235,
+            "votes": 96,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/aa0/5090a397e6a7adf4168736079ea5eaa0.jpg?fit=around|130:130&crop=130:130;*,*"
+          }
+        ]
+      },
+      {
+        "name": "Breads & Paratha",
+        "description": "Enjoy BREADS",
+        "items": [
+          {
+            "name": "Butter Naan",
+            "description": "Butter naan is prepared with refined flour cooked in clay oven, applied butter ... read more",
+            "price": 90,
+            "votes": 81,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/5f7/0b1f6e061b312eabb5ed673d20ebd5f7.jpg?fit=around|130:130&crop=130:130;*,*"
+          },
+          {
+            "name": "Butter Tawa Roti",
+            "description": "emjoy",
+            "price": 50,
+            "votes": 189,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/5f3/21a39e4c0f6b616b002b97fcbcdfb5f3.jpg?fit=around|130:130&crop=130:130;*,*"
+          },
+          {
+            "name": "Extra Baati",
+            "description": "enjoy",
+            "price": 315,
+            "votes": 96,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/a77/02d03edd7b81ef27fa0d8c874ddb7a77.jpg?fit=around|130:130&crop=130:130;*,*"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "The Busy Beans",
+    "rating": 4.0,
+    "restroImgUrl": "https://b.zmtcdn.com/data/pictures/9/19814979/9c6e91be8366a4964bb4fa3bb2210f36.jpg?fit=around|771.75:416.25&crop=771.75:416.25;*,*",
+    "numDiningReviews": 66,
+    "diningRating": 4.0,
+    "numDeliveryReviews": 837,
+    "deliveryRating": 3.6,
+    "categories": [
+      "Pizza",
+      "Burger",
+      " Shake",
+      " Sandwich",
+      "Beverages",
+      "Fast Food"
+    ],
+    "location": "Thakur Narayan Singh Marg, Raja Park, Jaipur, Rajasthan 302004",
+    "openingHours": "11:30am – 11:00pm (Today)",
+    "menu": [
+      {
+        "name": "Best in Pizza",
+        "description": "Enjoy",
+        "items": [
+          {
+            "name": "Margherita Pizza",
+            "description": "Prepared using thin crust pizza, sauce and mozeralla",
+            "price": 136,
+            "votes": 50,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/c4f/46d8c516f466814440b758e882b30c4f.jpg?output-format=webp&fit=around|130:130&crop=130:130;*,*"
+          },
+          {
+            "name": "Spicy Paneer Pizza",
+            "description": "Prepared using thin crust pizza,own special pizza sauce ,paneer coatted with spicy sauce ... read more",
+            "price": 146,
+            "votes": 30,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/b8a/b1b56b9d8d50b6af803c5ff667f48b8a.jpg?output-format=webp&fit=around|130:130&crop=130:130;*,*"
+          },
+          {
+            "name": "Cheese Crown Pizza",
+            "description": "Onion, tomato, capsicum, paneer, corn, olive and cheese",
+            "price": 152,
+            "votes": 110,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/1c2/31dad2b98e50b3243fde63bcf77201c2.jpg?output-format=webp&fit=around|130:130&crop=130:130;*,*"
+          },
+          {
+            "name": "Tandoori Paneer Pizza",
+            "description": "Prepared using thin crust pizza,own special pizza sauce onion,paneer coated with tandoori mayo ... read more",
+            "price": 146,
+            "votes": 96,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/1d8/47e7ceb234e167d597a69f653e2401d8.jpg?output-format=webp&fit=around|130:130&crop=130:130;*,*"
+          },
+          {
+            "name": "Paneer Makhani Pizza",
+            "description": "Prepared using thin crust pizza,own special pizza sauce onion,paneer coated with,makhani gravy and ... read more",
+            "price": 146,
+            "votes": 6,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/994/b20be8622a8cdc2e40a535abbe8bb994.jpg?output-format=webp&fit=around|130:130&crop=130:130;*,*"
+          },
+          {
+            "name": "Veggie Peri Peri Pizza",
+            "description": "Prepared using fine thin crust pizza coated with peri peri sauce onion,tomato,mozrella ... read more",
+            "price": 146,
+            "votes": 5,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/578/ec270e0c5dbef321b24ecff5e3e96578.jpg?output-format=webp&fit=around|130:130&crop=130:130;*,*"
+          }
+        ]
+      },
+      {
+        "name": "Classic pizza",
+        "description": "Classic pizza",
+        "items": [
+          {
+            "name": "Margherita Pizza",
+            "description": "Prepared using thin crust pizza, sauce and mozeralla",
+            "price": 136,
+            "votes": 7,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/c4f/46d8c516f466814440b758e882b30c4f.jpg?output-format=webp&fit=around|130:130&crop=130:130;*,*"
+          }
+        ]
+      },
+      {
+        "name": "Solo Topping Pizza",
+        "description": "Solo Topping Pizza",
+        "items": [
+          {
+            "name": "Cheese Corn Pizza",
+            "description": "Prepared using fine thin crust pizza coated with golden corn and cheese",
+            "price": 142,
+            "votes": 81,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/32f/874a5ff8641dbe537d28585d63ae132f.jpg?output-format=webp&fit=around|130:130&crop=130:130;*,*"
+          },
+          {
+            "name": "Cheese and Onion Pizza",
+            "description": "Prepared using fine thin crust pizza coated with onion and cheese",
+            "price": 142,
+            "votes": 81,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/ea0/faf8356527a6d5f7ca27e174376bcea0.jpg?output-format=webp&fit=around|130:130&crop=130:130;*,*"
+          }
+        ]
+      },
+      {
+        "name": "Double Topping Pizza",
+        "description": "Double Topping Pizza",
+        "items": [
+          {
+            "name": "Paneer Corn Pizza",
+            "description": "Prepared using fine thin crust pizza coated with golden , paneer and cheese",
+            "price": 146,
+            "votes": 9,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/551/dfe32f3e77193b50f61b269c6d57f551.jpg?output-format=webp&fit=around|130:130&crop=130:130;*,*"
+          },
+          {
+            "name": "Tomato Onion Pizza",
+            "description": "Tomato Onion Pizza....",
+            "price": 145,
+            "votes": 189,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/3f7/270f887dce7f2c9f895f70306e4593f7.jpg?output-format=webp&fit=around|130:130&crop=130:130;*,*"
+          }
+        ]
+      }
+    ]
+  }
+]
