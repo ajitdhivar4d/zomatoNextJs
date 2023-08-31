@@ -109,10 +109,7 @@
   .restroRatDiv {
     display: flex;
     justify-content: end;
-    width: 60px;
-    @include devices(mobile) {
-      width: 60px;
-    }
+    width: 44px;
 
     .ratGreenDiv {
       background: #267e3e;
@@ -121,7 +118,6 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
-      padding: 5px;
       color: white;
       @include devices(mobile) {
         border-radius: 5px;
@@ -143,11 +139,7 @@
 
       .starIcon {
         width: auto;
-        height: 10px;
-        @include devices(mobile) {
-          width: auto;
-          height: 9px;
-        }
+        height: 8px;
       }
     }
   }

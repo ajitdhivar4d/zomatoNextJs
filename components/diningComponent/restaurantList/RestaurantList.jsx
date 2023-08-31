@@ -7,13 +7,19 @@ import Image from "next/image"
 const RestaurantList = () => {
   const [restaurants, setRestaurants] = useState(null)
   const apiUrl = process.env.NEXT_PUBLIC_API_URL
+
   useEffect(() => {
-    fetch(`${apiUrl}/api/diningRestaurantApi`)
-      .then((response) => response.json())
-      .then((data) => {
-        setRestaurants(data.restaurants) // Update to access data.restaurants
-      })
-      .catch((error) => console.error("Error fetching data:", error))
+    async function fetchData() {
+      try {
+        const response = await fetch(`${apiUrl}/api/diningRestaurantApi`)
+        const data = await response.json()
+        setRestaurants(data.restaurants)
+      } catch (error) {
+        console.log("Error fetching data:", error)
+      }
+    }
+
+    fetchData()
   }, [])
 
   if (!restaurants) {
@@ -33,7 +39,7 @@ const RestaurantList = () => {
                 className={styles.restaurantCardImage}
                 width={300}
                 height={200}
-                priority="true"
+                loading="lazy"
               />
             </div>
             <div className={styles.restroNameRatDiv}>
@@ -42,11 +48,12 @@ const RestaurantList = () => {
                 <div className={styles.ratGreenDiv}>
                   <div className={styles.ratTextDiv}>{restaurant.rating}</div>
                   <Image
-                    src={"/star-icno.png"}
+                    src={"/star-icno.svg"}
                     alt={""}
                     className={styles.starIcon}
                     width={150}
                     height={50}
+                    loading="lazy"
                   />
                 </div>
               </div>

@@ -120,7 +120,6 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
-      padding: 5px;
       color: white;
       @include devices(mobile) {
         border-radius: 5px;
@@ -142,11 +141,7 @@
 
       .starIcon {
         width: auto;
-        height: 10px;
-        @include devices(mobile) {
-          width: auto;
-          height: 9px;
-        }
+        height: 8px;
       }
     }
   }

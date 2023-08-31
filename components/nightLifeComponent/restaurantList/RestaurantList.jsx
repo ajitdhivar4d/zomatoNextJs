@@ -34,7 +34,7 @@ const RestaurantList = () => {
                 className={styles.restaurantCardImage}
                 width={300}
                 height={200}
-                priority="true"
+                loading="lazy"
               />
             </div>
             <div className={styles.restroNameRatDiv}>
@@ -43,11 +43,12 @@ const RestaurantList = () => {
                 <div className={styles.ratGreenDiv}>
                   <div className={styles.ratTextDiv}>{restaurant.rating}</div>
                   <Image
-                    src={"/star-icno.png"}
+                    src={"/star-icno.svg"}
                     alt={""}
                     className={styles.starIcon}
                     width={150}
                     height={50}
+                    loading="lazy"
                   />
                 </div>
               </div>
