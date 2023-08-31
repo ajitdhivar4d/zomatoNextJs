@@ -4,21 +4,7 @@ import styles from "./OrderPage.module.scss"
 import Image from "next/image"
 import Link from "next/link"
 import { AiOutlineQuestionCircle } from "react-icons/ai"
-
-const directionBookMarkShareItems = [
-  {
-    icon: "/directionRightIcon.svg",
-    name: "Direction",
-  },
-  {
-    icon: "/bookMarkIcon.svg",
-    name: "Bookmakr",
-  },
-  {
-    icon: "/shareIcon.svg",
-    name: "Share",
-  },
-]
+import { OrderPageDirectionBookMarkShareItems } from "../../constants/index"
 
 const featuresItems = [
   {
@@ -169,7 +155,7 @@ const OrderPage = () => {
       {/* ////restaurantInfoContainer END ///// */}
       {/* ////directionBookMarkShareContainer//// */}
       <div className={styles.directionBookMarkShareContainer}>
-        {directionBookMarkShareItems.map((item) => (
+        {OrderPageDirectionBookMarkShareItems.map((item) => (
           <div key={item.name} className={styles.directionDiv}>
             <Image
               src={item.icon}

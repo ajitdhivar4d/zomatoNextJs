@@ -51,3 +51,18 @@ export const TopbrandCarouselGridItems = [
     name: "Roll Express",
   },
 ]
+
+export const OrderPageDirectionBookMarkShareItems = [
+  {
+    icon: "/directionRightIcon.svg",
+    name: "Direction",
+  },
+  {
+    icon: "/bookMarkIcon.svg",
+    name: "Bookmakr",
+  },
+  {
+    icon: "/shareIcon.svg",
+    name: "Share",
+  },
+]

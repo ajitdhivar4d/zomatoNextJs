@@ -1,3 +1,19 @@
+@import "../styleMixinComponents/mixins";
+
+.sample {
+  @include devices(mobile) {
+  }
+
+  @include devices(tablet) {
+  }
+
+  @include devices(ipad) {
+  }
+
+  @include devices(laptop) {
+  }
+}
+
 .orderPageMainDiv {
   margin-top: 20px;
   padding: 0;
@@ -56,25 +72,95 @@
 }
 
 .nameH1 {
-  font-size: 30px;
-  font-weight: 500;
+  @include devices(mobile) {
+    font-size: 20px;
+    font-weight: 500;
+    align-self: self-start;
+  }
+
+  @include devices(tablet) {
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  @include devices(ipad) {
+    font-size: 25px;
+    font-weight: 500;
+  }
+
+  @include devices(laptop) {
+    font-size: 30px;
+    font-weight: 500;
+  }
 }
 
 .RatingDiv {
   display: flex;
-  gap: 30px;
+  @include devices(mobile) {
+    gap: 15px;
+  }
+
+  @include devices(tablet) {
+    gap: 20px;
+  }
+
+  @include devices(ipad) {
+    gap: 25px;
+  }
+
+  @include devices(laptop) {
+    gap: 30px;
+  }
 }
 
 .diningRatingDiv {
   display: flex;
   align-items: center;
-  gap: 10px;
+  @include devices(mobile) {
+    align-items: start;
+    flex-direction: column;
+    gap: 3px;
+  }
+
+  @include devices(tablet) {
+    flex-direction: row;
+    gap: 8px;
+  }
+
+  @include devices(ipad) {
+    flex-direction: row;
+    gap: 8px;
+  }
+
+  @include devices(laptop) {
+    flex-direction: row;
+    gap: 10px;
+  }
 }
 
 .deliveryRatingDiv {
   display: flex;
   align-items: center;
-  gap: 10px;
+  @include devices(mobile) {
+    flex-direction: column;
+    align-items: start;
+    gap: 3px;
+  }
+
+  @include devices(tablet) {
+    gap: 6px;
+    flex-direction: row;
+  }
+
+  @include devices(ipad) {
+    flex-direction: row;
+    gap: 8px;
+  }
+
+  @include devices(laptop) {
+    flex-direction: row;
+    gap: 10px;
+  }
 }
 
 .outerGreenDiv {
@@ -89,13 +175,27 @@
 
 .rateNum {
   margin: 0 2px 0 0;
-  padding: 0 0 1px 0;
-  font-size: 17px;
+  padding: 0;
   color: white;
+  @include devices(mobile) {
+    font-size: 10px;
+  }
+
+  @include devices(tablet) {
+    font-size: 14px;
+  }
+
+  @include devices(ipad) {
+    font-size: 16px;
+  }
+
+  @include devices(laptop) {
+    font-size: 17px;
+  }
 }
 
 .starImg {
-  width: auto;
+  width: 8px;
   height: auto;
 }
 
@@ -105,12 +205,43 @@
 }
 
 .totalReview {
-  font-size: 14px;
-  font-weight: 600;
+  @include devices(mobile) {
+    font-size: 10px;
+    font-weight: 500;
+  }
+
+  @include devices(tablet) {
+    font-size: 12px;
+    font-weight: 600;
+  }
+
+  @include devices(ipad) {
+    font-size: 12px;
+    font-weight: 600;
+  }
+
+  @include devices(laptop) {
+    font-size: 14px;
+    font-weight: 600;
+  }
 }
 
 .reviewName {
-  font-size: 16px;
+  @include devices(mobile) {
+    font-size: 12px;
+  }
+
+  @include devices(tablet) {
+    font-size: 14px;
+  }
+
+  @include devices(ipad) {
+    font-size: 14px;
+  }
+
+  @include devices(laptop) {
+    font-size: 16px;
+  }
 }
 
 .addressDiv {
@@ -172,7 +303,6 @@
   height: 60px;
   margin-top: 15px;
   padding-bottom: 10px;
-  opacity: 0.9;
   font-weight: 300;
 }
 
@@ -183,7 +313,7 @@
   align-items: center;
   justify-content: start;
   border-radius: 8px;
-  border: 1px solid rgba(0, 0, 0, 0.6);
+  border: 1px solid rgba(0, 0, 0, 0.8);
   height: 36px;
   width: auto;
 
