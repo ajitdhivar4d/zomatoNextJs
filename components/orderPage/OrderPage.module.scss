@@ -244,18 +244,9 @@
   }
 }
 
-.addressDiv {
-}
-
-.categoryAddressDiv {
-  display: flex;
-  align-items: center;
-}
-
 .categoryAddressDiv {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: start;
   margin: 5px 0 0 0;
 }
@@ -264,6 +255,28 @@
   font-size: 1rem;
   opacity: 0.6;
   padding-bottom: 5px;
+
+  .categoryLink {
+    @include devices(mobile) {
+      font-size: 14px;
+      margin-right: 5px;
+    }
+
+    @include devices(tablet) {
+      font-size: 14px;
+      margin-right: 5px;
+    }
+
+    @include devices(ipad) {
+      font-size: 14px;
+      margin-right: 5px;
+    }
+
+    @include devices(laptop) {
+      font-size: 16px;
+      margin-right: 5px;
+    }
+  }
 }
 
 .addressDiv {
@@ -346,13 +359,48 @@
 }
 
 .featureItemDiv {
-  margin: 5px 20px -1px 0;
   cursor: pointer;
 
+  @include devices(mobile) {
+    margin: 0 0 -1px 0;
+  }
+
+  @include devices(tablet) {
+    margin: 5px 20px -1px 0;
+  }
+
+  @include devices(ipad) {
+    margin: 5px 20px -1px 0;
+  }
+
+  @include devices(laptop) {
+    margin: 5px 20px -1px 0;
+  }
+
   h2 {
-    margin: 3px 10px;
-    padding: 5px 8px;
-    font-size: 18px;
+    @include devices(mobile) {
+      font-size: 13px;
+      margin: 5px 0;
+      padding: 2px 5px;
+    }
+
+    @include devices(tablet) {
+      font-size: 18px;
+      margin: 3px 10px;
+      padding: 5px 8px;
+    }
+
+    @include devices(ipad) {
+      font-size: 18px;
+      margin: 3px 10px;
+      padding: 5px 8px;
+    }
+
+    @include devices(laptop) {
+      font-size: 18px;
+      margin: 3px 10px;
+      padding: 5px 8px;
+    }
   }
 }
 

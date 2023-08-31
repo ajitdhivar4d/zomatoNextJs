@@ -133,12 +133,24 @@ const OrderPage = () => {
         {/* ///////////nameRatingDiv END/////// */}
         <div className={styles.categoryAddressDiv}>
           <div className={styles.categoryDiv}>
-            <Link href="/">Mithai, Street</Link>
-            <Link href="/">Mithai, Street</Link>
-            <Link href="/">Mithai, Street</Link>
-            <Link href="/">Mithai, Street</Link>
-            <Link href="/">Mithai, Street</Link>
-            <Link href="/">Mithai, Street</Link>
+            <Link href="/" className={styles.categoryLink}>
+              Mithai, Street
+            </Link>
+            <Link href="/" className={styles.categoryLink}>
+              Mithai, Street
+            </Link>
+            <Link href="/" className={styles.categoryLink}>
+              Mithai, Street
+            </Link>
+            <Link href="/" className={styles.categoryLink}>
+              Mithai, Street
+            </Link>
+            <Link href="/" className={styles.categoryLink}>
+              Mithai, Street
+            </Link>
+            <Link href="/" className={styles.categoryLink}>
+              Mithai, Street
+            </Link>
           </div>
           <div className={styles.addressDiv}>C Scheme, Jaipur</div>
         </div>
