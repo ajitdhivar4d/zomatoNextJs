@@ -14,7 +14,7 @@ const gridItems = [
   },
   {
     img: "/food-selection-kachori-carousel.webp",
-    name: "kachori",
+    name: "Kachori",
   },
   {
     img: "/food-selection-idli-carousel.webp",

@@ -1,0 +1,232 @@
+.orderPageMainDiv {
+  margin-top: 20px;
+  padding: 0;
+}
+// imgContainer
+.imgContainer {
+  width: 100%;
+  background: #b49090;
+  display: flex;
+}
+
+.bigImgDiv {
+  .bigImg {
+    width: 685px;
+    height: auto;
+  }
+}
+
+.smallTwoImgDiv {
+  display: flex;
+  flex-direction: column;
+}
+
+.topsmallImgDiv {
+  .topsmallImg {
+    width: 200px;
+    height: auto;
+  }
+}
+
+.bottomSmallImgDiv {
+  .bottomSmallImg {
+    width: 200px;
+    height: auto;
+  }
+}
+
+.viewGalleryImgDiv {
+  .viewGalleryImg {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+}
+// imgContainer END
+
+//restaurantInfoContainer
+.restaurantInfoContainer {
+  padding-top: 10px;
+}
+
+.nameRatingDiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nameH1 {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.RatingDiv {
+  display: flex;
+  gap: 30px;
+}
+
+.diningRatingDiv {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.deliveryRatingDiv {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.outerGreenDiv {
+}
+
+.greenDiv {
+  background-color: green;
+  display: flex;
+  padding: 0 4px;
+  border-radius: 6px;
+}
+
+.rateNum {
+  margin: 0 2px 0 0;
+  padding: 0 0 1px 0;
+  font-size: 17px;
+  color: white;
+}
+
+.starImg {
+  width: auto;
+  height: auto;
+}
+
+.totalReviewDiv {
+  display: flex;
+  flex-direction: column;
+}
+
+.totalReview {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.reviewName {
+  font-size: 16px;
+}
+
+.addressDiv {
+}
+
+.categoryAddressDiv {
+  display: flex;
+  align-items: center;
+}
+
+.categoryAddressDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  margin: 5px 0 0 0;
+}
+
+.categoryDiv {
+  font-size: 1rem;
+  opacity: 0.6;
+  padding-bottom: 5px;
+}
+
+.addressDiv {
+  font-size: 1rem;
+  opacity: 0.4;
+  padding-bottom: 5px;
+}
+
+.restaurantOpenCloseTimeDiv {
+  opacity: 0.5;
+  display: flex;
+  font-size: 14px;
+
+  span {
+    color: rgb(255, 115, 0);
+  }
+}
+
+.timeDiv {
+  span {
+    margin: 0 10px;
+  }
+}
+
+.iconDiv {
+  align-self: center;
+  padding-left: 5px;
+}
+
+/////restaurantInfoContainer end
+
+////directionBookMarkShareContainer
+
+.directionBookMarkShareContainer {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  margin-top: 15px;
+  padding-bottom: 10px;
+  opacity: 0.9;
+  font-weight: 300;
+}
+
+.directionDiv {
+  margin: 0 10px 0 0;
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.6);
+  height: 36px;
+  width: auto;
+
+  .directionRightIcon {
+    width: 16px;
+    height: auto;
+  }
+
+  span {
+    margin-left: 5px;
+    font-size: 14px;
+    color: #1c1c1c;
+  }
+}
+
+////directionBookMarkShareContainer END
+
+////featuresContainer
+
+.featureContainer {
+  opacity: 0.6;
+  hr {
+    background: #1a1919;
+    height: 1px;
+  }
+}
+
+.featuresDiv {
+  display: flex;
+}
+
+.featureItemDiv {
+  margin: 5px 20px -1px 0;
+  cursor: pointer;
+
+  h2 {
+    margin: 3px 10px;
+    padding: 5px 8px;
+    font-size: 18px;
+  }
+}
+
+.underlinTextColorChangeClass {
+  color: red;
+  border-bottom: 2px solid red;
+}

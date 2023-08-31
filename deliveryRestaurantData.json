@@ -8,47 +8,20 @@
     "numDeliveryReviews": 1325,
     "deliveryRating": 4.3,
     "categories": [
-      "Fast Food",
+      "Kachori",
       "Street Food",
       "South Indian, Chinese",
       "North Indian",
-      "Mithai"
+      "Dosa",
+      "Fast Food"
     ],
     "location": "Charan Ture & Travels, WQCW+FVX, polo victory ke samne Jaipur Raj, Jaipur",
     "openingHours": "11:00 AM – 9:00 PM (Today)",
     "menu": [
       {
-        "name": "Snacks",
+        "name": "Kachori",
         "description": "Enjoy",
         "items": [
-          {
-            "name": "Jalebi (Snacks)",
-            "description": "A popular Indian sweet that captivates with its crispy texture and sweet syrupy",
-            "price": 450,
-            "votes": 50,
-            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/376/208ffb43cd671cdd05e64b4986b2c376.jpg?fit=around|130:130&crop=130:130;*,*"
-          },
-          {
-            "name": "Khaman Dhokla",
-            "description": "Experience the tangy and fluffy goodness of Khaman Dhokla, a popular Gujarati snack ... read more",
-            "price": 75,
-            "votes": 30,
-            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/9cb/ff6ae056c1bc8183ab00c301651559cb.jpg?fit=around|130:130&crop=130:130;*,*"
-          },
-          {
-            "name": "Mawa Kachori",
-            "description": "Indulge in the rich and delectable flavors of Mawa Kachori, a traditional Indian ... read more",
-            "price": 65,
-            "votes": 113,
-            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/cf0/b76c19da8234754ef3e35387c3134cf0.jpg?fit=around|130:130&crop=130:130;*,*"
-          },
-          {
-            "name": "Mirchi Bada",
-            "description": "Experience the fiery and flavorful delight of Mirchi Bada, a popular Indian snack ... read more",
-            "price": 40,
-            "votes": 96,
-            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/bcd/28ad7df384a9793a04c14f22a03c1bcd.jpg?fit=around|130:130&crop=130:130;*,*"
-          },
           {
             "name": "Pyaz Kachori",
             "description": "Indulge in the delightful flavors of Pyaz Kachori, a popular Indian snack that ... read more",
@@ -62,6 +35,26 @@
             "price": 40,
             "votes": 112,
             "imageUrl": "https://b.zmtcdn.com/data/dish_photos/1d7/e588a55b1c25483160ce3845f885a1d7.jpg?fit=around|130:130&crop=130:130;*,*"
+          }
+        ]
+      },
+      {
+        "name": "Best in Dosa",
+        "description": "Enjoy",
+        "items": [
+          {
+            "name": "Masala Dosa",
+            "description": "Experience the traditional flavors of Masala Dosa, a popular South Indian dish that ... read more",
+            "price": 175,
+            "votes": 19,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/6ce/51116d00390eaff910a0c313a22fe6ce.jpg?fit=around|130:130&crop=130:130;*,*"
+          },
+          {
+            "name": "Plain Dosa",
+            "description": "Savor the simplicity of Plain Dosa, a classic South Indian dish made from fermented rice and lentil batter. It is thin, crispy, and golden brown, perfect to enjoy with a side of chutney and sambar.",
+            "price": 150,
+            "votes": 30,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/997/46dc61312b0b5d322020558508646997.jpg?fit=around|130:130&crop=130:130;*,*"
           }
         ]
       },
@@ -476,6 +469,866 @@
             "price": 145,
             "votes": 189,
             "imageUrl": "https://b.zmtcdn.com/data/dish_photos/3f7/270f887dce7f2c9f895f70306e4593f7.jpg?output-format=webp&fit=around|130:130&crop=130:130;*,*"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Skyza",
+    "rating": 4.1,
+    "restroImgUrl": "https://b.zmtcdn.com/data/pictures/1/19807791/18f8ffb67e3888aa249d8a0370535682.jpeg?fit=around|771.75:416.25&crop=771.75:416.25;*,*",
+    "numDiningReviews": 1579,
+    "diningRating": 4.5,
+    "numDeliveryReviews": 337,
+    "deliveryRating": 4.1,
+    "categories": [
+      "Pizza",
+      "Mughlai",
+      "Italian",
+      "Chinese",
+      "Continental",
+      "Desserts, Beverages"
+    ],
+    "location": "Ambition Tower, Panch Batti, C Scheme, Ashok Nagar, Jaipur, Rajasthan 302007",
+    "openingHours": "11:30am – 11pm (Today)",
+    "menu": [
+      {
+        "name": "Best in Pizza",
+        "description": "Enjoy",
+        "items": [
+          {
+            "name": "Margherita Pizza",
+            "description": "Fresh tomato sauce, mozzarella cheese and basil.",
+            "price": 350,
+            "votes": 50,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/496/422fdb6d9fc7fd821e80c2dbd944a496.jpg?fit=around|130:130&crop=130:130;*,*"
+          },
+          {
+            "name": "Garden Fresh Pizza",
+            "description": "Spicy tomato sauce, mozzarella cheese, onion, capsicum, tomato, mushroom, baby corn and broccoli.",
+            "price": 375,
+            "votes": 5,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/a89/dfa1431b03ee5ce2c1acca3ae7264a89.jpg?fit=around|130:130&crop=130:130;*,*"
+          }
+        ]
+      },
+      {
+        "name": "Thai",
+        "description": "Thai",
+        "items": [
+          {
+            "name": "Thai Green Curry",
+            "description": "Thai style green curry with mushroom, broccoli, baby corn, carrot and beans with ... read more",
+            "price": 425,
+            "votes": 7,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/998/48e5ffb3553ac6da86ade2f9bc643998.jpg?fit=around|130:130&crop=130:130;*,*"
+          }
+        ]
+      },
+      {
+        "name": "Lebanese",
+        "description": "Lebanese",
+        "items": [
+          {
+            "name": "Pita with Hummus",
+            "description": "Creamy hummus served with homemade pita bread.",
+            "price": 275,
+            "votes": 12,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/96b/36a89ddea1600311637ba861e23c396b.jpg?fit=around|130:130&crop=130:130;*,*"
+          },
+          {
+            "name": "Falafel",
+            "description": "Pita pocket filled with chick peas balls, tahini, red hot, sauce lettuce with ... read more",
+            "price": 310,
+            "votes": 5,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/593/f6999f7abab0a344e989524e2e511593.jpg?fit=around|130:130&crop=130:130;*,*"
+          }
+        ]
+      },
+      {
+        "name": "Platters",
+        "description": "Platters",
+        "items": [
+          {
+            "name": "Skyzas Special Kebab Platter",
+            "description": "Hara bhara kebab, dahi kebab, veg seekh kebab, paneer tikka",
+            "price": 599,
+            "votes": 9,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/b04/4a2e16e98c0a746db143aa4402e15b04.jpg?fit=around|130:130&crop=130:130;*,*"
+          },
+          {
+            "name": "Skyza Special Veg platter",
+            "description": "paneer tikka, soya Chaap, veg Seekh kebab, tandoori aaloo, Dahi kebab.",
+            "price": 899,
+            "votes": 6,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/1b8/140efe418b029ce281a8154d04a141b8.jpg?fit=around|130:130&crop=130:130;*,*"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Vekanna - The South Indian Cafe",
+    "rating": 4.3,
+    "restroImgUrl": "https://b.zmtcdn.com/data/pictures/chains/0/20620710/4b36cacb3c5b9224481a3bed607c5bd2.jpg?fit=around|771.75:416.25&crop=771.75:416.25;*,*",
+    "numDiningReviews": 0,
+    "diningRating": 0,
+    "numDeliveryReviews": 80,
+    "deliveryRating": 3.8,
+    "categories": [
+      "Fast Food",
+      "Street Food",
+      "South Indian, Chinese",
+      "North Indian",
+      "Dosa"
+    ],
+    "location": "223/2, Raja Park Rd, Raja Park, Jaipur, Rajasthan 302004",
+    "openingHours": "11:00 AM – 9:00 PM (Today)",
+    "menu": [
+      {
+        "name": "Best in Dosa",
+        "description": "Enjoy",
+        "items": [
+          {
+            "name": "Butter Masala Dosa",
+            "description": "Served with sambar and variety of chutneys",
+            "price": 230,
+            "votes": 19,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/86d/07ec24566bf637ee586dc91b09faa86d.jpg?fit=around|130:130&crop=130:130;*,*"
+          },
+          {
+            "name": "Masala Dosa",
+            "description": "Served with sambar and variety of chutneys",
+            "price": 210,
+            "votes": 15,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/040/e272f5466d1ae459ccf9687d5387e040.jpg?fit=around|130:130&crop=130:130;*,*"
+          }
+        ]
+      },
+      {
+        "name": "Snacks",
+        "description": "Enjoy",
+        "items": [
+          {
+            "name": "Jalebi (Snacks)",
+            "description": "A popular Indian sweet that captivates with its crispy texture and sweet syrupy",
+            "price": 450,
+            "votes": 50,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/376/208ffb43cd671cdd05e64b4986b2c376.jpg?fit=around|130:130&crop=130:130;*,*"
+          },
+          {
+            "name": "Khaman Dhokla",
+            "description": "Experience the tangy and fluffy goodness of Khaman Dhokla, a popular Gujarati snack ... read more",
+            "price": 75,
+            "votes": 30,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/9cb/ff6ae056c1bc8183ab00c301651559cb.jpg?fit=around|130:130&crop=130:130;*,*"
+          },
+          {
+            "name": "Mawa Kachori",
+            "description": "Indulge in the rich and delectable flavors of Mawa Kachori, a traditional Indian ... read more",
+            "price": 65,
+            "votes": 113,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/cf0/b76c19da8234754ef3e35387c3134cf0.jpg?fit=around|130:130&crop=130:130;*,*"
+          },
+          {
+            "name": "Mirchi Bada",
+            "description": "Experience the fiery and flavorful delight of Mirchi Bada, a popular Indian snack ... read more",
+            "price": 40,
+            "votes": 96,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/bcd/28ad7df384a9793a04c14f22a03c1bcd.jpg?fit=around|130:130&crop=130:130;*,*"
+          },
+          {
+            "name": "Pyaz Kachori",
+            "description": "Indulge in the delightful flavors of Pyaz Kachori, a popular Indian snack that ... read more",
+            "price": 45,
+            "votes": 856,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/30d/c7876207d36fb05a935923a11693c30d.jpg?fit=around|130:130&crop=130:130;*,*"
+          },
+          {
+            "name": "Samosa",
+            "description": "Treat yourself to the classic and irresistible taste of Samosa, a popular Indian ... read more",
+            "price": 40,
+            "votes": 112,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/1d7/e588a55b1c25483160ce3845f885a1d7.jpg?fit=around|130:130&crop=130:130;*,*"
+          }
+        ]
+      },
+      {
+        "name": "Ghewar Special",
+        "description": "A traditional Rajasthani sweet known for its intricate honeycomb-like texture. Made from a ... read more",
+        "items": [
+          {
+            "name": "Ghewar Meetha",
+            "description": "A traditional Rajasthani sweet that is a feast for the senses. Made from ... read more",
+            "price": 195,
+            "votes": 81,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/14b/5425c48896589449c060a23f1adc014b.jpg?fit=around|130:130&crop=130:130;*,*"
+          },
+          {
+            "name": "Ghewar Rabdi",
+            "description": "A traditional Rajasthani dessert that combines the delicate sweetness of Ghewar with the ... read more",
+            "price": 195,
+            "votes": 189,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/ac5/2f674be1e7d3a506171049d78368eac5.jpg?fit=around|130:130&crop=130:130;*,*"
+          }
+        ]
+      },
+      {
+        "name": "Bangali Sweets",
+        "description": "Enjoy Bangali Sweets",
+        "items": [
+          {
+            "name": "Anurodh",
+            "description": "enjoy",
+            "price": 125,
+            "votes": 81,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/98e/86796b44a4aadcc1945af370b800a98e.jpg?fit=around|130:130&crop=130:130;*,*"
+          },
+          {
+            "name": "Badam Bhog",
+            "description": "A delightful Indian sweet made with premium almonds, sugar, and a touch of ... read more",
+            "price": 131,
+            "votes": 189,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/ffa/eb50b142225c10f7182e38b4d43a2ffa.jpg?fit=around|130:130&crop=130:130;*,*"
+          },
+          {
+            "name": "Chamcham",
+            "description": "A traditional Bengali sweet crafted from chhana (cottage cheese) and immersed in a ... read more",
+            "price": 131,
+            "votes": 180,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/aba/015b0478624ee776cbe2666fb3a0aaba.jpg?fit=around|130:130&crop=130:130;*,*"
+          },
+          {
+            "name": "Chena Murki",
+            "description": "A traditional Indian sweet made from freshly prepared chhana (cottage cheese) and coated ... read moreA traditional Bengali sweet crafted from chhana (cottage cheese) and immersed in a ... read more",
+            "price": 131,
+            "votes": 205,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/dcf/c08d60b1f0aefab0f02967ecef2b5dcf.jpg?fit=around|130:130&crop=130:130;*,*"
+          },
+          {
+            "name": "Chhena Tost",
+            "description": "A popular Bengali dessert made with chhana (cottage cheese) and bread. These delectable ... read more",
+            "price": 119,
+            "votes": 45,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/6e2/65b33c1f76b26b9921a7844c4b4506e2.jpg?fit=around|130:130&crop=130:130;*,*"
+          }
+        ]
+      },
+      {
+        "name": "Barfi",
+        "description": "Enjoy Barfi",
+        "items": [
+          {
+            "name": "Akhrot Barfi",
+            "description": "A delectable Indian sweet made with walnuts (akhrot) and a perfect blend of ... read more",
+            "price": 125,
+            "votes": 81,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/2e7/f679e9ec39efb615c50e524e622e62e7.jpg?fit=around|130:130&crop=130:130;*,*"
+          },
+          {
+            "name": "Doda Barfi",
+            "description": "Indulge in the delightful taste of Doda Barfi, a traditional Indian sweet that ... read more",
+            "price": 125,
+            "votes": 189,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/ef4/d3c5da966d95cc2098ec428713c55ef4.jpg?fit=around|130:130&crop=130:130;*,*"
+          },
+          {
+            "name": "Kalakand Barfi",
+            "description": "A classic Indian sweet made with condensed milk and paneer (Indian cottage cheese). ... read moree",
+            "price": 125,
+            "votes": 96,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/651/e635377655299ed3d432ed2a8fde5651.jpg?fit=around|130:130&crop=130:130;*,*"
+          }
+        ]
+      },
+      {
+        "name": "Chat",
+        "description": "Enjoy Chat",
+        "items": [
+          {
+            "name": "Bhalla Papri",
+            "description": "Experience the refreshing combination of flavors in Bhalla Papri, a classic chaat dish ... read more",
+            "price": 150,
+            "votes": 81,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/b24/51ad3e25a6007f2ab7839330fd4d7b24.jpg?fit=around|130:130&crop=130:130;*,*"
+          },
+          {
+            "name": "Bhel Puri",
+            "description": "emjoy",
+            "price": 125,
+            "votes": 189,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/448/663f5883385c5082833c7500cd82c448.jpg?fit=around|130:130&crop=130:130;*,*"
+          },
+          {
+            "name": "Dahi Bada",
+            "description": "Delight in the soft and spongy Dahi Bada, made with lentil dumplings soaked ... read more",
+            "price": 150,
+            "votes": 96,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/d69/e43135d49fe6ce85e3c05b7666735d69.jpg?fit=around|130:130&crop=130:130;*,*"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Thaggu Ke Samose",
+    "rating": 4.3,
+    "restroImgUrl": "https://b.zmtcdn.com/data/dish_photos/5c8/d21a85846eecea587a9f05abc12135c8.jpg?fit=around|130:130&crop=130:130;*,*",
+    "numDiningReviews": 0,
+    "diningRating": 0,
+    "numDeliveryReviews": 1325,
+    "deliveryRating": 4.3,
+    "categories": [
+      "Fast Food",
+      "Street Food",
+      "Sandwich",
+      "Beverages",
+      "Kachori"
+    ],
+    "location": "Charan Ture & Travels, WQCW+FVX, polo victory ke samne Jaipur Raj, Jaipur",
+    "openingHours": "11:00 AM – 9:00 PM (Today)",
+    "menu": [
+      {
+        "name": "Kachori",
+        "description": "Enjoy",
+        "items": [
+          {
+            "name": "Dal Kachori",
+            "description": "Dal ki kachori is a snack, a fried dish filled with daal filling, serves 1",
+            "price": 35,
+            "votes": 91,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/5c8/d21a85846eecea587a9f05abc12135c8.jpg?fit=around|130:130&crop=130:130;*,*"
+          },
+          {
+            "name": "Pyaz Kachori",
+            "description": "It is usually a round ball made of flour and dough filled with a stuffing of aloo pyaz masala.",
+            "price": 49,
+            "votes": 72,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/227/099c8302947556f718b4f7f0d8666227.jpg?fit=around|130:130&crop=130:130;*,*"
+          }
+        ]
+      },
+      {
+        "name": "Best in Dosa",
+        "description": "Enjoy",
+        "items": [
+          {
+            "name": "Masala Dosa",
+            "description": "Experience the traditional flavors of Masala Dosa, a popular South Indian dish that ... read more",
+            "price": 175,
+            "votes": 19,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/6ce/51116d00390eaff910a0c313a22fe6ce.jpg?fit=around|130:130&crop=130:130;*,*"
+          },
+          {
+            "name": "Plain Dosa",
+            "description": "Savor the simplicity of Plain Dosa, a classic South Indian dish made from fermented rice and lentil batter. It is thin, crispy, and golden brown, perfect to enjoy with a side of chutney and sambar.",
+            "price": 150,
+            "votes": 30,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/997/46dc61312b0b5d322020558508646997.jpg?fit=around|130:130&crop=130:130;*,*"
+          }
+        ]
+      },
+      {
+        "name": "Ghewar Special",
+        "description": "A traditional Rajasthani sweet known for its intricate honeycomb-like texture. Made from a ... read more",
+        "items": [
+          {
+            "name": "Ghewar Meetha",
+            "description": "A traditional Rajasthani sweet that is a feast for the senses. Made from ... read more",
+            "price": 195,
+            "votes": 81,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/14b/5425c48896589449c060a23f1adc014b.jpg?fit=around|130:130&crop=130:130;*,*"
+          },
+          {
+            "name": "Ghewar Rabdi",
+            "description": "A traditional Rajasthani dessert that combines the delicate sweetness of Ghewar with the ... read more",
+            "price": 195,
+            "votes": 189,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/ac5/2f674be1e7d3a506171049d78368eac5.jpg?fit=around|130:130&crop=130:130;*,*"
+          }
+        ]
+      },
+      {
+        "name": "Bangali Sweets",
+        "description": "Enjoy Bangali Sweets",
+        "items": [
+          {
+            "name": "Anurodh",
+            "description": "enjoy",
+            "price": 125,
+            "votes": 81,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/98e/86796b44a4aadcc1945af370b800a98e.jpg?fit=around|130:130&crop=130:130;*,*"
+          },
+          {
+            "name": "Badam Bhog",
+            "description": "A delightful Indian sweet made with premium almonds, sugar, and a touch of ... read more",
+            "price": 131,
+            "votes": 189,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/ffa/eb50b142225c10f7182e38b4d43a2ffa.jpg?fit=around|130:130&crop=130:130;*,*"
+          },
+          {
+            "name": "Chamcham",
+            "description": "A traditional Bengali sweet crafted from chhana (cottage cheese) and immersed in a ... read more",
+            "price": 131,
+            "votes": 180,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/aba/015b0478624ee776cbe2666fb3a0aaba.jpg?fit=around|130:130&crop=130:130;*,*"
+          },
+          {
+            "name": "Chena Murki",
+            "description": "A traditional Indian sweet made from freshly prepared chhana (cottage cheese) and coated ... read moreA traditional Bengali sweet crafted from chhana (cottage cheese) and immersed in a ... read more",
+            "price": 131,
+            "votes": 205,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/dcf/c08d60b1f0aefab0f02967ecef2b5dcf.jpg?fit=around|130:130&crop=130:130;*,*"
+          },
+          {
+            "name": "Chhena Tost",
+            "description": "A popular Bengali dessert made with chhana (cottage cheese) and bread. These delectable ... read more",
+            "price": 119,
+            "votes": 45,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/6e2/65b33c1f76b26b9921a7844c4b4506e2.jpg?fit=around|130:130&crop=130:130;*,*"
+          }
+        ]
+      },
+      {
+        "name": "Barfi",
+        "description": "Enjoy Barfi",
+        "items": [
+          {
+            "name": "Akhrot Barfi",
+            "description": "A delectable Indian sweet made with walnuts (akhrot) and a perfect blend of ... read more",
+            "price": 125,
+            "votes": 81,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/2e7/f679e9ec39efb615c50e524e622e62e7.jpg?fit=around|130:130&crop=130:130;*,*"
+          },
+          {
+            "name": "Doda Barfi",
+            "description": "Indulge in the delightful taste of Doda Barfi, a traditional Indian sweet that ... read more",
+            "price": 125,
+            "votes": 189,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/ef4/d3c5da966d95cc2098ec428713c55ef4.jpg?fit=around|130:130&crop=130:130;*,*"
+          },
+          {
+            "name": "Kalakand Barfi",
+            "description": "A classic Indian sweet made with condensed milk and paneer (Indian cottage cheese). ... read moree",
+            "price": 125,
+            "votes": 96,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/651/e635377655299ed3d432ed2a8fde5651.jpg?fit=around|130:130&crop=130:130;*,*"
+          }
+        ]
+      },
+      {
+        "name": "Chat",
+        "description": "Enjoy Chat",
+        "items": [
+          {
+            "name": "Bhalla Papri",
+            "description": "Experience the refreshing combination of flavors in Bhalla Papri, a classic chaat dish ... read more",
+            "price": 150,
+            "votes": 81,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/b24/51ad3e25a6007f2ab7839330fd4d7b24.jpg?fit=around|130:130&crop=130:130;*,*"
+          },
+          {
+            "name": "Bhel Puri",
+            "description": "emjoy",
+            "price": 125,
+            "votes": 189,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/448/663f5883385c5082833c7500cd82c448.jpg?fit=around|130:130&crop=130:130;*,*"
+          },
+          {
+            "name": "Dahi Bada",
+            "description": "Delight in the soft and spongy Dahi Bada, made with lentil dumplings soaked ... read more",
+            "price": 150,
+            "votes": 96,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/d69/e43135d49fe6ce85e3c05b7666735d69.jpg?fit=around|130:130&crop=130:130;*,*"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Kanha",
+    "rating": 4.0,
+    "restroImgUrl": "https://b.zmtcdn.com/data/dish_photos/e4d/223d0b1e32abe586e8f88b2051362e4d.jpg?fit=around|130:130&crop=130:130;*,*",
+    "numDiningReviews": 872,
+    "diningRating": 3.8,
+    "numDeliveryReviews": 50800,
+    "deliveryRating": 4.2,
+    "categories": [
+      "Mithai",
+      "Street Food",
+      "North Indian",
+      "South Indian",
+      "Chinese",
+      "Fast Food",
+      "Desserts",
+      "Idli",
+      "Beverages"
+    ],
+    "location": "Lakshmi coaching, Quter no I-19 p&t colony, Bhagat Singh Marg, C Scheme, Jaipur, Rajasthan 302007",
+    "openingHours": "8:30am – 10:30pm (Today)",
+    "menu": [
+      {
+        "name": "Best in Idli",
+        "description": "Enjoy",
+        "items": [
+          {
+            "name": "Idli Sambhar",
+            "description": "Idli Sambhar",
+            "price": 110,
+            "votes": 115,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/e4d/223d0b1e32abe586e8f88b2051362e4d.jpg?fit=around|130:130&crop=130:130;*,*"
+          },
+          {
+            "name": "Spicy Tava Idli",
+            "description": "Spicy Tava Idli",
+            "price": 165,
+            "votes": 32,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/3b2/b3dceab626132aee2f54aea4c8bda3b2.jpg?fit=around|130:130&crop=130:130;*,*"
+          }
+        ]
+      },
+      {
+        "name": "Aloo Masala Chaat",
+        "description": "Enjoy",
+        "items": [
+          {
+            "name": "Aloo Tikki",
+            "description": "Served with Green and Red Chutney",
+            "price": 105,
+            "votes": 32,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/2c2/43cf732f8436654a4c311b8614af32c2.jpg?fit=around|130:130&crop=130:130;*,*"
+          },
+          {
+            "name": "Chole Tikki",
+            "description": "Served with Chole,Green and Red Chutney",
+            "price": 125,
+            "votes": 24,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/59b/6488a6703a25a3d74cfa7d386085659b.jpg?fit=around|130:130&crop=130:130;*,*"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Surya Mahal Restaurant",
+    "rating": 4.1,
+    "restroImgUrl": "https://b.zmtcdn.com/data/pictures/chains/0/100260/f71c279f9220a882892b2ee512a263a1.jpg?fit=around|771.75:416.25&crop=771.75:416.25;*,*",
+    "numDiningReviews": 957,
+    "diningRating": 4.3,
+    "numDeliveryReviews": 1534,
+    "deliveryRating": 4.1,
+    "categories": [
+      "Mithai",
+      "Street Food",
+      "North Indian",
+      "South Indian",
+      "Chinese",
+      "Fast Food",
+      "Desserts",
+      "Idli",
+      "Beverages"
+    ],
+    "location": "Titan Eye+ at MI Road Jaipur, Shop No 75, Sharma Building, Mirza Ismail Rd, beside Niros, Panch Batti, C Scheme, Ashok Nagar, Jaipur, Rajasthan 302001",
+    "openingHours": "8:30am – 10:30pm (Today)",
+    "menu": [
+      {
+        "name": "Best in Idli",
+        "description": "Enjoy",
+        "items": [
+          {
+            "name": "Idli Sambhar",
+            "description": "Idli Sambhar",
+            "price": 120,
+            "votes": 16,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/cbd/ba47c8e4106e4d64b027b7f51d08ccbd.jpg?fit=around|130:130&crop=130:130;*,*"
+          }
+        ]
+      },
+      {
+        "name": "Thali",
+        "description": "Enjoy",
+        "items": [
+          {
+            "name": "Chef Recommended Thali",
+            "description": "Paneer Butter Masala+Malai Kofta+Dal Makhni+Mixed Raita+Veg Pulao+1 Butter Naan/2 Kulcha",
+            "price": 440,
+            "votes": 15,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/fea/518b650f0cf6bc7b97021f8838ba5fea.jpg?fit=around|130:130&crop=130:130;*,*"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Nom 365",
+    "rating": 3.1,
+    "restroImgUrl": "https://b.zmtcdn.com/data/dish_photos/fca/2e7df7f948e492db4485e75d7c217fca.jpg?fit=around|130:130&crop=130:130;*,*",
+    "numDiningReviews": 957,
+    "diningRating": 4.3,
+    "numDeliveryReviews": 1534,
+    "deliveryRating": 4.1,
+    "categories": [
+      "Mithai",
+      "Street Food",
+      "North Indian",
+      "South Indian",
+      "Chinese",
+      "Fast Food",
+      "Desserts",
+      "Sandwich",
+      "Burger"
+    ],
+    "location": "Hawa Sadak, Sharma Colony, Bais Godam, Jaipur, Rajasthan 302006",
+    "openingHours": "8:30am – 10:30pm (Today)",
+    "menu": [
+      {
+        "name": "Best in Sandwich",
+        "description": "Enjoy",
+        "items": [
+          {
+            "name": "Classical Tomato Cucumber and Cheddar Cheese Grilled Sandwich",
+            "description": "Classical Tomato Cucumber and Cheddar Cheese Grilled S/W in your choice of bread. ... read more",
+            "price": 149,
+            "votes": 16,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/fca/2e7df7f948e492db4485e75d7c217fca.jpg?fit=around|130:130&crop=130:130;*,*"
+          }
+        ]
+      },
+      {
+        "name": "Burgers",
+        "description": "Enjoy",
+        "items": [
+          {
+            "name": "Double Decker Veg Patty Burger with Cheese",
+            "description": "Twin patty of Vegetebale patties topped with melting cheddar cheese slices. Served with ... read more",
+            "price": 199,
+            "votes": 46,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/127/a126dd27c76cfd745aebce2b26a13127.jpg?fit=around|130:130&crop=130:130;*,*"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Crazy Coffee",
+    "rating": 4.2,
+    "restroImgUrl": "https://b.zmtcdn.com/data/reviews_photos/76b/0c48790c987801aacf5d4e4a090e076b_1542801391.jpg?fit=around|771.75:416.25&crop=771.75:416.25;*,*",
+    "numDiningReviews": 881,
+    "diningRating": 4.4,
+    "numDeliveryReviews": 6026,
+    "deliveryRating": 4.3,
+    "categories": [
+      "Cafe",
+      "Tea",
+      "Shake",
+      "Beverages",
+      "Sandwich",
+      "Fast Food",
+      "Maggi"
+    ],
+    "location": "CODDLE UR NAILS Jaipur, C-39, Lajpat Marg, Panch Batti, C Scheme, Ashok Nagar, Jaipur, Rajasthan 302001",
+    "openingHours": "9am – 12midnight (Today)",
+    "menu": [
+      {
+        "name": "Best in Sandwich",
+        "description": "Enjoy",
+        "items": [
+          {
+            "name": "Teekha Paneer Sandwich",
+            "description": "Paneer, veggies and spicy in house sauces between perfectly grilled crispy bread.",
+            "price": 175,
+            "votes": 25,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/fc7/29a07ff5be57ee6ce3fb53d04a7b8fc7.jpg?fit=around|130:130&crop=130:130;*,*"
+          },
+          {
+            "name": "Cheese Corn Sandwich",
+            "description": "Corn,veggies,herbs and cheese between perfectly grilled crispy bread.",
+            "price": 140,
+            "votes": 34,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/a34/89c80088a864c1dea4d7cca194db4a34.jpg?fit=around|130:130&crop=130:130;*,*"
+          }
+        ]
+      },
+      {
+        "name": "Maggi",
+        "description": "Enjoy",
+        "items": [
+          {
+            "name": "Plain Maggie",
+            "description": "... read more",
+            "price": 85,
+            "votes": 5,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/883/343447fef3f781bfacb31827513be883.jpg?fit=around|130:130&crop=130:130;*,*"
+          },
+          {
+            "name": "Chilli Cheese Maggie",
+            "description": "... read more",
+            "price": 120,
+            "votes": 35,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/252/576163d88b69664da19e811e7980e252.jpg?fit=around|130:130&crop=130:130;*,*"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Kanha Cake-O-Pastry",
+    "rating": 4.3,
+    "restroImgUrl": "https://b.zmtcdn.com/data/dish_photos/e9d/2b3f7b60cc8e98cb6b1a5b229ed4ce9d.jpg",
+    "numDiningReviews": 881,
+    "diningRating": 4.4,
+    "numDeliveryReviews": 6026,
+    "deliveryRating": 4.3,
+    "categories": ["Bakery", "Cake"],
+    "location": "Electrical Inspector,Jaipur, F-55, Nandpuri Main Rd, Hawa Sadak, Geejgarh Vihar Colony, Bais Godam, Jaipur, Rajasthan 302007",
+    "openingHours": "9am – 6pm (Today)",
+    "menu": [
+      {
+        "name": "Best in Cake",
+        "description": "Enjoy",
+        "items": [
+          {
+            "name": "Vanilla Cake",
+            "description": "",
+            "price": 180,
+            "votes": 26,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/e58/255b1e009c120cf8e98c118182212e58.jpg?fit=around|130:130&crop=130:130;*,*"
+          },
+          {
+            "name": "Pineapple Cake",
+            "description": "",
+            "price": 220,
+            "votes": 34,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/b8f/99969218b17e74c1fef297f6d94b6b8f.jpg?fit=around|130:130&crop=130:130;*,*"
+          }
+        ]
+      },
+      {
+        "name": "Cakes",
+        "description": "Enjoy",
+        "items": [
+          {
+            "name": "Strawberry Cake",
+            "description": "... read more",
+            "price": 250,
+            "votes": 5,
+            "imageUrl": "Strawberry Cake"
+          },
+          {
+            "name": "Pineapple Cake",
+            "description": "... read more",
+            "price": 210,
+            "votes": 35,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/b8f/99969218b17e74c1fef297f6d94b6b8f.jpg?fit=around|130:130&crop=130:130;*,*"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "cake Shop",
+    "rating": 4.3,
+    "restroImgUrl": "https://b.zmtcdn.com/data/dish_photos/6f3/92ec899611ad9f56f8699955085296f3.jpg",
+    "numDiningReviews": 881,
+    "diningRating": 4.4,
+    "numDeliveryReviews": 6026,
+    "deliveryRating": 4.3,
+    "categories": ["Bakery", "Cake"],
+    "location": "Electrical Inspector,Jaipur, F-55, Nandpuri Main Rd, Hawa Sadak, Geejgarh Vihar Colony, Bais Godam, Jaipur, Rajasthan 302007",
+    "openingHours": "9am – 6pm (Today)",
+    "menu": [
+      {
+        "name": "Best in Cake",
+        "description": "Enjoy",
+        "items": [
+          {
+            "name": "Vanilla Cake",
+            "description": "",
+            "price": 180,
+            "votes": 26,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/8c3/ba901d04a426ee282c71169fb1e088c3.jpg"
+          },
+          {
+            "name": "Pineapple Cake",
+            "description": "",
+            "price": 220,
+            "votes": 34,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/6bc/e50766eefd6027030dac1368e80766bc.jpg"
+          }
+        ]
+      },
+      {
+        "name": "Cakes",
+        "description": "Enjoy",
+        "items": [
+          {
+            "name": "Strawberry Cake",
+            "description": "... read more",
+            "price": 250,
+            "votes": 5,
+            "imageUrl": "Strawberry Cake"
+          },
+          {
+            "name": "Pineapple Cake",
+            "description": "... read more",
+            "price": 210,
+            "votes": 35,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/b8f/99969218b17e74c1fef297f6d94b6b8f.jpg?fit=around|130:130&crop=130:130;*,*"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "cake Shop",
+    "rating": 4.3,
+    "restroImgUrl": "https://b.zmtcdn.com/data/dish_photos/6f3/92ec899611ad9f56f8699955085296f3.jpg",
+    "numDiningReviews": 881,
+    "diningRating": 4.4,
+    "numDeliveryReviews": 6026,
+    "deliveryRating": 4.3,
+    "categories": ["Bakery", "Cake"],
+    "location": "Electrical Inspector,Jaipur, F-55, Nandpuri Main Rd, Hawa Sadak, Geejgarh Vihar Colony, Bais Godam, Jaipur, Rajasthan 302007",
+    "openingHours": "9am – 6pm (Today)",
+    "menu": [
+      {
+        "name": "Best in Cake",
+        "description": "Enjoy",
+        "items": [
+          {
+            "name": "Vanilla Cake",
+            "description": "",
+            "price": 180,
+            "votes": 26,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/8c3/ba901d04a426ee282c71169fb1e088c3.jpg"
+          },
+          {
+            "name": "Pineapple Cake",
+            "description": "",
+            "price": 220,
+            "votes": 34,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/6bc/e50766eefd6027030dac1368e80766bc.jpg"
+          }
+        ]
+      },
+      {
+        "name": "Cakes",
+        "description": "Enjoy",
+        "items": [
+          {
+            "name": "Strawberry Cake",
+            "description": "... read more",
+            "price": 250,
+            "votes": 5,
+            "imageUrl": "Strawberry Cake"
+          },
+          {
+            "name": "Pineapple Cake",
+            "description": "... read more",
+            "price": 210,
+            "votes": 35,
+            "imageUrl": "https://b.zmtcdn.com/data/dish_photos/b8f/99969218b17e74c1fef297f6d94b6b8f.jpg?fit=around|130:130&crop=130:130;*,*"
           }
         ]
       }
