@@ -29,6 +29,7 @@ const OrderPage = () => {
   const [activeIndex, setActiveIndex] = useState(null)
   const oderPageInfo = useSelector((state) => state.oderPageInfo)
   console.log("oderPageInfo", oderPageInfo)
+  console.log("Categories:", oderPageInfo.categories)
 
   const handleItemClick = (index) => {
     setActiveIndex(index)
@@ -142,7 +143,7 @@ const OrderPage = () => {
         {/* ///////////nameRatingDiv END/////// */}
         <div className={styles.categoryAddressDiv}>
           <div className={styles.categoryDiv}>
-            {oderPageInfo.categories.map((category) => (
+            {oderPageInfo?.categories?.map((category) => (
               <Link href="/" key={category} className={styles.categoryLink}>
                 {category}
               </Link>
