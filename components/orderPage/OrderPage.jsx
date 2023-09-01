@@ -5,6 +5,7 @@ import Image from "next/image"
 import Link from "next/link"
 import { AiOutlineQuestionCircle } from "react-icons/ai"
 import { OrderPageDirectionBookMarkShareItems } from "../../constants/index"
+import { useSelector } from "react-redux"
 
 const featuresItems = [
   {
@@ -26,6 +27,8 @@ const featuresItems = [
 
 const OrderPage = () => {
   const [activeIndex, setActiveIndex] = useState(null)
+  const oderPageInfo = useSelector((state) => state.oderPageInfo)
+  console.log("oderPageInfo", oderPageInfo)
 
   const handleItemClick = (index) => {
     setActiveIndex(index)
@@ -36,9 +39,7 @@ const OrderPage = () => {
       <div className={styles.imgContainer}>
         <div className={styles.bigImgDiv}>
           <Image
-            src={
-              "https://b.zmtcdn.com/data/pictures/chains/8/100148/df39feb89c843dde2260bd6a7b0dcf2d.jpg?fit=around|771.75:416.25&crop=771.75:416.25;*,*"
-            }
+            src={oderPageInfo.restroImgUrl}
             width={150}
             height={50}
             alt={"img"}
@@ -86,13 +87,15 @@ const OrderPage = () => {
       <div className={styles.restaurantInfoContainer}>
         {/* ///////////nameRatingDiv/////// */}
         <div className={styles.nameRatingDiv}>
-          <h1 className={styles.nameH1}>Kanha</h1>
+          <h1 className={styles.nameH1}>{oderPageInfo.name}</h1>
           <div className={styles.RatingDiv}>
             <div className={styles.diningRatingDiv}>
               {/* /// */}
               <div className={styles.outerGreenDiv}>
                 <div className={styles.greenDiv}>
-                  <div className={styles.rateNum}>4.3</div>
+                  <div className={styles.rateNum}>
+                    {oderPageInfo.diningRating}
+                  </div>
                   <Image
                     src={"/star-icno.svg"}
                     width={15}
@@ -104,7 +107,9 @@ const OrderPage = () => {
               </div>
               {/* //// */}
               <div className={styles.totalReviewDiv}>
-                <div className={styles.totalReview}>872</div>
+                <div className={styles.totalReview}>
+                  {oderPageInfo.numDiningReviews}
+                </div>
                 <div className={styles.reviewName}>Dining Reviews</div>
               </div>
             </div>
@@ -112,7 +117,9 @@ const OrderPage = () => {
               {/* /// */}
               <div className={styles.outerGreenDiv}>
                 <div className={styles.greenDiv}>
-                  <div className={styles.rateNum}>4.3</div>
+                  <div className={styles.rateNum}>
+                    {oderPageInfo.deliveryRating}
+                  </div>
                   <Image
                     src={"/star-icno.svg"}
                     width={15}
@@ -124,7 +131,9 @@ const OrderPage = () => {
               </div>
               {/* //// */}
               <div className={styles.totalReviewDiv}>
-                <div className={styles.totalReview}>50k</div>
+                <div className={styles.totalReview}>
+                  {oderPageInfo.numDeliveryReviews}
+                </div>
                 <div className={styles.reviewName}>Delivery Reviews</div>
               </div>
             </div>
@@ -133,31 +142,19 @@ const OrderPage = () => {
         {/* ///////////nameRatingDiv END/////// */}
         <div className={styles.categoryAddressDiv}>
           <div className={styles.categoryDiv}>
-            <Link href="/" className={styles.categoryLink}>
-              Mithai, Street
-            </Link>
-            <Link href="/" className={styles.categoryLink}>
-              Mithai, Street
-            </Link>
-            <Link href="/" className={styles.categoryLink}>
-              Mithai, Street
-            </Link>
-            <Link href="/" className={styles.categoryLink}>
-              Mithai, Street
-            </Link>
-            <Link href="/" className={styles.categoryLink}>
-              Mithai, Street
-            </Link>
-            <Link href="/" className={styles.categoryLink}>
-              Mithai, Street
-            </Link>
+            {oderPageInfo.categories.map((category) => (
+              <Link href="/" key={category} className={styles.categoryLink}>
+                {category}
+              </Link>
+            ))}
           </div>
-          <div className={styles.addressDiv}>C Scheme, Jaipur</div>
+          <div className={styles.addressDiv}>{oderPageInfo.location}</div>
         </div>
         <div className={styles.restaurantOpenCloseTimeDiv}>
           <span>Open now</span>
           <div className={styles.timeDiv}>
-            <span>-</span>7:30am – 10:45pm (Today)
+            <span>-</span>
+            {oderPageInfo.openingHours}
           </div>
           <div className={styles.iconDiv}>
             <AiOutlineQuestionCircle />
