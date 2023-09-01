@@ -5,14 +5,22 @@ import { useSelector } from "react-redux"
 
 const RestaurantList = () => {
   const restaurants = useSelector((state) => state.deliRestaurant)
-  if (!restaurants || restaurants.length === 0) {
+  const category = useSelector((state) => state.category)
+  console.log("category", category)
+
+  const filteredRestaurants = category
+    ? restaurants.filter((restaurant) =>
+        restaurant.categories.includes(category),
+      )
+    : restaurants
+  if (!filteredRestaurants || filteredRestaurants.length === 0) {
     return <div>Loading...</div> // Handle the loading state or an empty state
   }
   return (
     <div className={styles.mainDiv}>
       <h1>Delivery Restaurants in Jaipur</h1>
       <div className={styles.restaurantGridDiv}>
-        {restaurants.map((restaurant) => (
+        {filteredRestaurants.map((restaurant) => (
           <div key={restaurant._id} className={styles.restaurantCard}>
             <div className={styles.restaurantCardImgContainer}>
               <Image
