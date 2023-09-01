@@ -6,7 +6,6 @@ import { useSelector } from "react-redux"
 const RestaurantList = () => {
   const restaurants = useSelector((state) => state.deliRestaurant)
   const category = useSelector((state) => state.category)
-  console.log("category", category)
 
   const filteredRestaurants = category
     ? restaurants.filter((restaurant) =>
@@ -14,7 +13,7 @@ const RestaurantList = () => {
       )
     : restaurants
   if (!filteredRestaurants || filteredRestaurants.length === 0) {
-    return <div>Loading...</div> // Handle the loading state or an empty state
+    return <div>Loading...</div>
   }
   return (
     <div className={styles.mainDiv}>
