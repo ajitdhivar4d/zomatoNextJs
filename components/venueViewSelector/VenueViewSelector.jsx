@@ -6,7 +6,7 @@ import DeliveryComponent from "../deliveryComponent/DeliveryComponent"
 import DiningComponent from "../diningComponent/DiningComponent"
 import NightLifeComponent from "../nightLifeComponent/NightLifeComponent"
 
-const VenueViewSelector = () => {
+const VenueViewSelector = ({ restaurants }) => {
   const [activeIndex, setActiveIndex] = useState(0)
 
   const options = [
@@ -35,7 +35,7 @@ const VenueViewSelector = () => {
 
   switch (activeIndex) {
     case 0:
-      activeComponent = <DeliveryComponent />
+      activeComponent = <DeliveryComponent restaurants={restaurants} />
       break
     case 1:
       activeComponent = <DiningComponent />

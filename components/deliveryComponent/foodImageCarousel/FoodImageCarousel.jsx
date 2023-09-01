@@ -3,8 +3,11 @@ import React from "react"
 import styles from "./FoodImageCarousel.module.scss"
 import Image from "next/image"
 import { foodImgCarouselGridItems } from "../../../constants/index"
+import { useDispatch } from "react-redux"
+import { setCategory } from "@/redux/features/categorySlice"
 
-const FoodImageCarousel = ({ category, setCategory }) => {
+const FoodImageCarousel = () => {
+  const dispatch = useDispatch()
   return (
     <div className={styles.mainDiv}>
       <h2>Inspiration for your first order</h2>
@@ -13,7 +16,7 @@ const FoodImageCarousel = ({ category, setCategory }) => {
           <div
             key={index}
             className={styles.gridItemDiv}
-            onClick={() => setCategory(item.name)}
+            onClick={() => dispatch(setCategory(item.name))}
           >
             <Image
               src={item.img}

@@ -1,10 +1,13 @@
 import VenueViewSelector from "@/components/venueViewSelector/VenueViewSelector"
+import { fetchDeliveryRestaurants } from "@/utils/api"
 
-export default function Home() {
+export default async function Home() {
+  const restaurants = await fetchDeliveryRestaurants()
+  console.log(restaurants)
   return (
     <div>
       Main page
-      <VenueViewSelector />
+      <VenueViewSelector restaurants={restaurants} />
     </div>
   )
 }

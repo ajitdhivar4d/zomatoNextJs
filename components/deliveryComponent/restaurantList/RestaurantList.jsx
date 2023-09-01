@@ -4,35 +4,10 @@ import React, { useEffect, useState } from "react"
 import styles from "./RestaurantList.module.scss"
 import Image from "next/image"
 
-const RestaurantList = ({ category }) => {
-  const [restaurants, setRestaurants] = useState(null)
-  const apiUrl = process.env.NEXT_PUBLIC_API_URL
-
-  useEffect(() => {
-    async function fetchData() {
-      try {
-        const response = await fetch(`${apiUrl}/api/deliveryRestaurantApi`)
-        const data = await response.json()
-
-        const filteredRestaurants = data.restaurants.filter((restaurant) => {
-          return restaurant.categories.includes(category)
-        })
-
-        category
-          ? setRestaurants(filteredRestaurants)
-          : setRestaurants(data.restaurants)
-      } catch (error) {
-        console.error("Error fetching data:", error)
-      }
-    }
-
-    fetchData()
-  }, [category])
-
-  if (!restaurants) {
-    return <div>Loading...</div>
+const RestaurantList = ({ restaurants }) => {
+  if (!restaurants || restaurants.length === 0) {
+    return <div>Loading...</div> // Handle the loading state or an empty state
   }
-
   return (
     <div className={styles.mainDiv}>
       <h1>Delivery Restaurants in Jaipur</h1>

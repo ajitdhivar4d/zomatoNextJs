@@ -1,17 +1,14 @@
-"use client"
-import React, { useState } from "react"
+import React from "react"
 import TopBrandsImageCarousel from "./topBrandsImageCarousel/TopBrandsImageCarousel"
 import RestaurantList from "./restaurantList/RestaurantList"
 import FoodImageCarousel from "./foodImageCarousel/FoodImageCarousel"
 
-const DeliveryComponent = () => {
-  const [category, setCategory] = useState("")
-
+const DeliveryComponent = ({ restaurants }) => {
   return (
     <div>
-      <FoodImageCarousel category={category} setCategory={setCategory} />
+      <FoodImageCarousel />
       <TopBrandsImageCarousel />
-      <RestaurantList category={category} />
+      <RestaurantList restaurants={restaurants} />
     </div>
   )
 }
