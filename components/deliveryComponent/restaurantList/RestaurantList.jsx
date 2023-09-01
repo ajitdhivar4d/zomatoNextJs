@@ -22,7 +22,10 @@ const RestaurantList = () => {
   const handleOrderPageInfo = (restaurant) => {
     dispatch(setOrderPageInfo(restaurant))
   }
-  const apiUrl = process.env.NEXT_PUBLIC_API_URL
+  // const apiUrl = process.env.NEXT_PUBLIC_API_URL
+  // {
+  //   ;`${apiUrl}/order`
+  // }
   return (
     <div className={styles.mainDiv}>
       <h1>Delivery Restaurants in Jaipur</h1>
