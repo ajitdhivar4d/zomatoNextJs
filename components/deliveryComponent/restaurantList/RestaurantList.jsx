@@ -22,12 +22,13 @@ const RestaurantList = () => {
   const handleOrderPageInfo = (restaurant) => {
     dispatch(setOrderPageInfo(restaurant))
   }
+  const apiUrl = process.env.NEXT_PUBLIC_API_URL
   return (
     <div className={styles.mainDiv}>
       <h1>Delivery Restaurants in Jaipur</h1>
       <div className={styles.restaurantGridDiv}>
         {filteredRestaurants.map((restaurant) => (
-          <Link href={"/order"} key={restaurant._id}>
+          <Link href={`${apiUrl}/order`} key={restaurant._id}>
             <div
               className={styles.restaurantCard}
               onClick={() => handleOrderPageInfo(restaurant)}
