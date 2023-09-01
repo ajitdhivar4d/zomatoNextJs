@@ -4,8 +4,7 @@ import Image from "next/image"
 import { useSelector } from "react-redux"
 
 const RestaurantList = () => {
-  const restaurants = useSelector((state) => state.restaurant)
-  console.log("Restaurant", restaurants)
+  const restaurants = useSelector((state) => state.deliRestaurant)
   if (!restaurants || restaurants.length === 0) {
     return <div>Loading...</div> // Handle the loading state or an empty state
   }

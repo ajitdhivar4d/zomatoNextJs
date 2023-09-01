@@ -6,14 +6,16 @@ import DeliveryComponent from "../deliveryComponent/DeliveryComponent"
 import DiningComponent from "../diningComponent/DiningComponent"
 import NightLifeComponent from "../nightLifeComponent/NightLifeComponent"
 import { useDispatch } from "react-redux"
-import { setRestaurants } from "@/redux/features/restaurantSlice"
+import { setDeliRestaurants } from "@/redux/features/deliRestaurantSlice"
+import { setDiningRestaurants } from "@/redux/features/diningRestaurantSlice"
 
-const VenueViewSelector = ({ restaurantData }) => {
+const VenueViewSelector = ({ deliRestaurantData, diningRestaurantData }) => {
   const [activeIndex, setActiveIndex] = useState(0)
   const dispatch = useDispatch()
 
   useEffect(() => {
-    dispatch(setRestaurants(restaurantData))
+    dispatch(setDeliRestaurants(deliRestaurantData))
+    dispatch(setDiningRestaurants(diningRestaurantData))
   }, [])
 
   const options = [

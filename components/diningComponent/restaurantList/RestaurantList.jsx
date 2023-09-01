@@ -3,27 +3,12 @@
 import React, { useEffect, useState } from "react"
 import styles from "./RestaurantList.module.scss"
 import Image from "next/image"
+import { useSelector } from "react-redux"
 
 const RestaurantList = () => {
-  const [restaurants, setRestaurants] = useState(null)
-  const apiUrl = process.env.NEXT_PUBLIC_API_URL
-
-  useEffect(() => {
-    async function fetchData() {
-      try {
-        const response = await fetch(`${apiUrl}/api/diningRestaurantApi`)
-        const data = await response.json()
-        setRestaurants(data.restaurants)
-      } catch (error) {
-        console.log("Error fetching data:", error)
-      }
-    }
-
-    fetchData()
-  }, [])
-
-  if (!restaurants) {
-    return <div>Loading...</div>
+  const restaurants = useSelector((state) => state.diningRestaurant)
+  if (!restaurants || restaurants.length === 0) {
+    return <div>Loading...</div> // Handle the loading state or an empty state
   }
 
   return (

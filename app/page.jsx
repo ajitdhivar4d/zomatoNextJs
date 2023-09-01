@@ -1,12 +1,16 @@
 import VenueViewSelector from "@/components/venueViewSelector/VenueViewSelector"
-import { fetchDeliveryRestaurants } from "@/utils/api"
+import { fetchDeliveryRestaurants, fetchDiningRestaurants } from "@/utils/api"
 
 export default async function Home() {
-  const restaurantData = await fetchDeliveryRestaurants()
+  const deliRestaurantData = await fetchDeliveryRestaurants()
+  const diningRestaurantData = await fetchDiningRestaurants()
   return (
     <div>
       Main page
-      <VenueViewSelector restaurantData={restaurantData} />
+      <VenueViewSelector
+        deliRestaurantData={deliRestaurantData}
+        diningRestaurantData={diningRestaurantData}
+      />
     </div>
   )
 }
