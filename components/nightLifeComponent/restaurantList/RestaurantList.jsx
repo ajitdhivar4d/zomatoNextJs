@@ -1,26 +1,13 @@
-"use client"
-
-import React, { useEffect, useState } from "react"
+import React from "react"
 import styles from "./RestaurantList.module.scss"
 import Image from "next/image"
-import { CiStar } from "react-icons/ci"
+import { useSelector } from "react-redux"
 
 const RestaurantList = () => {
-  const [restaurants, setRestaurants] = useState(null)
-  const apiUrl = process.env.NEXT_PUBLIC_API_URL
-  useEffect(() => {
-    fetch(`${apiUrl}/api/restaurants`)
-      .then((response) => response.json())
-      .then((data) => {
-        setRestaurants(data.restaurants) // Update to access data.restaurants
-      })
-      .catch((error) => console.error("Error fetching data:", error))
-  }, [])
-
-  if (!restaurants) {
-    return <div>Loading...</div>
+  const restaurants = useSelector((state) => state.diningRestaurant)
+  if (!restaurants || restaurants.length === 0) {
+    return <div>Loading...</div> // Handle the loading state or an empty state
   }
-
   return (
     <div className={styles.mainDiv}>
       <h1>Nightlife Restaurants in Jaipur</h1>

@@ -1,6 +1,4 @@
-"use client"
-
-import React, { useEffect, useState } from "react"
+import React from "react"
 import styles from "./RestaurantList.module.scss"
 import Image from "next/image"
 import { useSelector } from "react-redux"
