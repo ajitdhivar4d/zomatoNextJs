@@ -1,13 +1,20 @@
 "use client"
-import React, { useState } from "react"
+import React, { useEffect, useState } from "react"
 import styles from "./VenueViewSelector.module.scss"
 import Image from "next/image"
 import DeliveryComponent from "../deliveryComponent/DeliveryComponent"
 import DiningComponent from "../diningComponent/DiningComponent"
 import NightLifeComponent from "../nightLifeComponent/NightLifeComponent"
+import { useDispatch } from "react-redux"
+import { setRestaurants } from "@/redux/features/restaurantSlice"
 
-const VenueViewSelector = ({ restaurants }) => {
+const VenueViewSelector = ({ restaurantData }) => {
   const [activeIndex, setActiveIndex] = useState(0)
+  const dispatch = useDispatch()
+
+  useEffect(() => {
+    dispatch(setRestaurants(restaurantData))
+  }, [])
 
   const options = [
     {
@@ -35,7 +42,7 @@ const VenueViewSelector = ({ restaurants }) => {
 
   switch (activeIndex) {
     case 0:
-      activeComponent = <DeliveryComponent restaurants={restaurants} />
+      activeComponent = <DeliveryComponent />
       break
     case 1:
       activeComponent = <DiningComponent />

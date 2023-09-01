@@ -3,12 +3,12 @@ import TopBrandsImageCarousel from "./topBrandsImageCarousel/TopBrandsImageCarou
 import RestaurantList from "./restaurantList/RestaurantList"
 import FoodImageCarousel from "./foodImageCarousel/FoodImageCarousel"
 
-const DeliveryComponent = ({ restaurants }) => {
+const DeliveryComponent = () => {
   return (
     <div>
       <FoodImageCarousel />
       <TopBrandsImageCarousel />
-      <RestaurantList restaurants={restaurants} />
+      <RestaurantList />
     </div>
   )
 }

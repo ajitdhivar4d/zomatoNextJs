@@ -1,10 +1,11 @@
-"use client"
-
-import React, { useEffect, useState } from "react"
+import React from "react"
 import styles from "./RestaurantList.module.scss"
 import Image from "next/image"
+import { useSelector } from "react-redux"
 
-const RestaurantList = ({ restaurants }) => {
+const RestaurantList = () => {
+  const restaurants = useSelector((state) => state.restaurant)
+  console.log("Restaurant", restaurants)
   if (!restaurants || restaurants.length === 0) {
     return <div>Loading...</div> // Handle the loading state or an empty state
   }
