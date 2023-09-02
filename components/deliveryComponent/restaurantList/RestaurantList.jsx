@@ -23,6 +23,7 @@ const RestaurantList = () => {
     // Save OrderPageInfo to localStorage
     localStorage.setItem("orderPageInfo", JSON.stringify(restaurant))
   }
+  console.log(filteredRestaurants[0].basePrice)
   return (
     <div className={styles.mainDiv}>
       <h1>Delivery Restaurants in Jaipur</h1>
@@ -59,7 +60,11 @@ const RestaurantList = () => {
                   </div>
                 </div>
               </div>
-              <div></div>
+              <div className={styles.addressPriceDiv}>
+                <p className={styles.addressP}>{restaurant.location}</p>
+                <div className={styles.priceDiv}>₹{restaurant.basePrice}</div>
+                {console.log(restaurant.basePrice)}
+              </div>
             </div>
           </Link>
         ))}

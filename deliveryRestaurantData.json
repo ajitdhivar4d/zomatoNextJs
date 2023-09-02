@@ -2,6 +2,7 @@
   {
     "name": "Rawat Mishthan Bhandar",
     "rating": 4.3,
+    "basePrice": 50,
     "restroImgUrl": "https://b.zmtcdn.com/data/pictures/chains/0/100910/c996bd831916a8de5b9bfe7cd7d5dadd.jpg?fit=around|771.75:416.25&crop=771.75:416.25;*,*",
     "numDiningReviews": 0,
     "diningRating": 0,
@@ -178,6 +179,7 @@
   {
     "name": "Baalti Bhar Ke By Kebabs & Curries Company",
     "rating": 4.1,
+    "basePrice": 345,
     "restroImgUrl": "https://b.zmtcdn.com/data/pictures/chains/9/20155339/d5c4074d58329ffb916d93c8d8d8e7fa.jpeg?fit=around|771.75:416.25&crop=771.75:416.25;*,*",
     "numDiningReviews": 82,
     "diningRating": 4.1,
@@ -355,6 +357,7 @@
   {
     "name": "The Busy Beans",
     "rating": 4.0,
+    "basePrice": 136,
     "restroImgUrl": "https://b.zmtcdn.com/data/pictures/9/19814979/9c6e91be8366a4964bb4fa3bb2210f36.jpg?fit=around|771.75:416.25&crop=771.75:416.25;*,*",
     "numDiningReviews": 66,
     "diningRating": 4.0,
@@ -477,6 +480,7 @@
   {
     "name": "Skyza",
     "rating": 4.1,
+    "basePrice": 350,
     "restroImgUrl": "https://b.zmtcdn.com/data/pictures/1/19807791/18f8ffb67e3888aa249d8a0370535682.jpeg?fit=around|771.75:416.25&crop=771.75:416.25;*,*",
     "numDiningReviews": 1579,
     "diningRating": 4.5,
@@ -571,6 +575,7 @@
   {
     "name": "Vekanna - The South Indian Cafe",
     "rating": 4.3,
+    "basePrice": 230,
     "restroImgUrl": "https://b.zmtcdn.com/data/pictures/chains/0/20620710/4b36cacb3c5b9224481a3bed607c5bd2.jpg?fit=around|771.75:416.25&crop=771.75:416.25;*,*",
     "numDiningReviews": 0,
     "diningRating": 0,
@@ -774,6 +779,7 @@
   {
     "name": "Thaggu Ke Samose",
     "rating": 4.3,
+    "basePrice": 50,
     "restroImgUrl": "https://b.zmtcdn.com/data/dish_photos/5c8/d21a85846eecea587a9f05abc12135c8.jpg?fit=around|130:130&crop=130:130;*,*",
     "numDiningReviews": 0,
     "diningRating": 0,
@@ -949,6 +955,7 @@
   {
     "name": "Kanha",
     "rating": 4.0,
+    "basePrice": 110,
     "restroImgUrl": "https://b.zmtcdn.com/data/dish_photos/e4d/223d0b1e32abe586e8f88b2051362e4d.jpg?fit=around|130:130&crop=130:130;*,*",
     "numDiningReviews": 872,
     "diningRating": 3.8,
@@ -1013,6 +1020,7 @@
   {
     "name": "Surya Mahal Restaurant",
     "rating": 4.1,
+    "basePrice": 120,
     "restroImgUrl": "https://b.zmtcdn.com/data/pictures/chains/0/100260/f71c279f9220a882892b2ee512a263a1.jpg?fit=around|771.75:416.25&crop=771.75:416.25;*,*",
     "numDiningReviews": 957,
     "diningRating": 4.3,
@@ -1063,6 +1071,7 @@
   {
     "name": "Nom 365",
     "rating": 3.1,
+    "basePrice": 149,
     "restroImgUrl": "https://b.zmtcdn.com/data/dish_photos/fca/2e7df7f948e492db4485e75d7c217fca.jpg?fit=around|130:130&crop=130:130;*,*",
     "numDiningReviews": 957,
     "diningRating": 4.3,
@@ -1113,6 +1122,7 @@
   {
     "name": "Crazy Coffee",
     "rating": 4.2,
+    "basePrice": 175,
     "restroImgUrl": "https://b.zmtcdn.com/data/reviews_photos/76b/0c48790c987801aacf5d4e4a090e076b_1542801391.jpg?fit=around|771.75:416.25&crop=771.75:416.25;*,*",
     "numDiningReviews": 881,
     "diningRating": 4.4,
@@ -1175,6 +1185,7 @@
   {
     "name": "Kanha Cake-O-Pastry",
     "rating": 4.3,
+    "basePrice": 220,
     "restroImgUrl": "https://b.zmtcdn.com/data/dish_photos/e9d/2b3f7b60cc8e98cb6b1a5b229ed4ce9d.jpg",
     "numDiningReviews": 881,
     "diningRating": 4.4,
@@ -1229,6 +1240,7 @@
   {
     "name": "cake Shop",
     "rating": 4.3,
+    "basePrice": 250,
     "restroImgUrl": "https://b.zmtcdn.com/data/dish_photos/6f3/92ec899611ad9f56f8699955085296f3.jpg",
     "numDiningReviews": 881,
     "diningRating": 4.4,
@@ -1283,6 +1295,7 @@
   {
     "name": "cake Shop",
     "rating": 4.3,
+    "basePrice": 180,
     "restroImgUrl": "https://b.zmtcdn.com/data/dish_photos/6f3/92ec899611ad9f56f8699955085296f3.jpg",
     "numDiningReviews": 881,
     "diningRating": 4.4,
