@@ -19,9 +19,6 @@ const RestaurantList = () => {
     return <div>Loading...</div>
   }
 
-  const handleOrderPageInfo = (restaurant) => {
-    dispatch(setOrderPageInfo(restaurant))
-  }
   const apiUrl = process.env.NEXT_PUBLIC_API_URL
 
   return (
@@ -32,7 +29,7 @@ const RestaurantList = () => {
           <Link href={`${apiUrl}/order`} key={restaurant._id}>
             <div
               className={styles.restaurantCard}
-              onClick={() => handleOrderPageInfo(restaurant)}
+              onClick={() => dispatch(setOrderPageInfo(restaurant))}
             >
               <div className={styles.restaurantCardImgContainer}>
                 <Image
