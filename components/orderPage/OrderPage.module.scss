@@ -21,33 +21,74 @@
 // imgContainer
 .imgContainer {
   width: 100%;
-  background: #b49090;
   display: flex;
+  gap: 5px;
 }
 
 .bigImgDiv {
   .bigImg {
     width: 685px;
-    height: auto;
+
+    @include devices(mobile) {
+      height: 183px;
+      object-fit: cover;
+    }
+
+    @include devices(tablet) {
+      height: 370px;
+      object-fit: cover;
+    }
+
+    @include devices(ipad) {
+      height: 370px;
+      object-fit: cover;
+    }
+
+    @include devices(laptop) {
+      height: 370px;
+      object-fit: cover;
+    }
   }
 }
 
 .smallTwoImgDiv {
   display: flex;
   flex-direction: column;
+  gap: 5px;
+
+  justify-content: space-between;
+  @include devices(mobile) {
+    height: 183px;
+  }
+
+  @include devices(tablet) {
+    height: 370px;
+  }
+
+  @include devices(ipad) {
+    height: 370px;
+  }
+
+  @include devices(laptop) {
+    height: 370px;
+  }
 }
 
 .topsmallImgDiv {
+  height: 100%;
   .topsmallImg {
     width: 200px;
-    height: auto;
+    height: 100%;
+    object-fit: cover;
   }
 }
 
 .bottomSmallImgDiv {
+  height: 100%;
   .bottomSmallImg {
     width: 200px;
-    height: auto;
+    height: 100%;
+    object-fit: cover;
   }
 }
 
@@ -58,6 +99,7 @@
     height: 100%;
   }
 }
+
 // imgContainer END
 
 //restaurantInfoContainer
