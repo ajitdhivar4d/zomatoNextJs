@@ -1,12 +1,10 @@
 import React from "react"
 import styles from "./RestaurantList.module.scss"
 import Image from "next/image"
-import { useDispatch, useSelector } from "react-redux"
+import { useSelector } from "react-redux"
 import Link from "next/link"
-import { setOrderPageInfo } from "@/redux/features/orderPageInfoSlice"
 
 const RestaurantList = () => {
-  const dispatch = useDispatch()
   const restaurants = useSelector((state) => state.deliRestaurant)
   const category = useSelector((state) => state.category)
 
@@ -21,6 +19,10 @@ const RestaurantList = () => {
 
   const apiUrl = process.env.NEXT_PUBLIC_API_URL
 
+  const handleRestaurantClick = (restaurant) => {
+    // Save OrderPageInfo to localStorage
+    localStorage.setItem("orderPageInfo", JSON.stringify(restaurant))
+  }
   return (
     <div className={styles.mainDiv}>
       <h1>Delivery Restaurants in Jaipur</h1>
@@ -29,7 +31,7 @@ const RestaurantList = () => {
           <Link href={`${apiUrl}/order`} key={restaurant._id}>
             <div
               className={styles.restaurantCard}
-              onClick={() => dispatch(setOrderPageInfo(restaurant))}
+              onClick={() => handleRestaurantClick(restaurant)}
             >
               <div className={styles.restaurantCardImgContainer}>
                 <Image

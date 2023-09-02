@@ -1,11 +1,10 @@
 "use client"
-import React, { useState } from "react"
+import React, { useEffect, useState } from "react"
 import styles from "./OrderPage.module.scss"
 import Image from "next/image"
 import Link from "next/link"
 import { AiOutlineQuestionCircle } from "react-icons/ai"
 import { OrderPageDirectionBookMarkShareItems } from "../../constants/index"
-import { useSelector } from "react-redux"
 
 const featuresItems = [
   {
@@ -27,10 +26,23 @@ const featuresItems = [
 
 const OrderPage = () => {
   const [activeIndex, setActiveIndex] = useState(null)
-  const oderPageInfo = useSelector((state) => state.oderPageInfo)
-  console.log("oderPageInfo", oderPageInfo)
-  console.log("Categories:", oderPageInfo.categories)
-  const categories = oderPageInfo.categories
+
+  const [orderPageInfo, setOrderPageInfo] = useState()
+  useEffect(() => {
+    const storedOrderPageInfo = localStorage.getItem("orderPageInfo")
+    if (storedOrderPageInfo) {
+      setOrderPageInfo(JSON.parse(storedOrderPageInfo))
+    }
+  }, [])
+
+  if (!orderPageInfo) {
+    return <div>Loading.......</div>
+  }
+
+  console.log("oderPageInfo", orderPageInfo)
+  console.log("Categories:", orderPageInfo.categories)
+  const categories = orderPageInfo.categories
+
   const handleItemClick = (index) => {
     setActiveIndex(index)
   }
@@ -40,7 +52,7 @@ const OrderPage = () => {
       <div className={styles.imgContainer}>
         <div className={styles.bigImgDiv}>
           <Image
-            src={oderPageInfo.restroImgUrl}
+            src={orderPageInfo.restroImgUrl}
             width={150}
             height={50}
             alt={"img"}
@@ -88,14 +100,14 @@ const OrderPage = () => {
       <div className={styles.restaurantInfoContainer}>
         {/* ///////////nameRatingDiv/////// */}
         <div className={styles.nameRatingDiv}>
-          <h1 className={styles.nameH1}>{oderPageInfo.name}</h1>
+          <h1 className={styles.nameH1}>{orderPageInfo.name}</h1>
           <div className={styles.RatingDiv}>
             <div className={styles.diningRatingDiv}>
               {/* /// */}
               <div className={styles.outerGreenDiv}>
                 <div className={styles.greenDiv}>
                   <div className={styles.rateNum}>
-                    {oderPageInfo.diningRating}
+                    {orderPageInfo.diningRating}
                   </div>
                   <Image
                     src={"/star-icno.svg"}
@@ -109,7 +121,7 @@ const OrderPage = () => {
               {/* //// */}
               <div className={styles.totalReviewDiv}>
                 <div className={styles.totalReview}>
-                  {oderPageInfo.numDiningReviews}
+                  {orderPageInfo.numDiningReviews}
                 </div>
                 <div className={styles.reviewName}>Dining Reviews</div>
               </div>
@@ -119,7 +131,7 @@ const OrderPage = () => {
               <div className={styles.outerGreenDiv}>
                 <div className={styles.greenDiv}>
                   <div className={styles.rateNum}>
-                    {oderPageInfo.deliveryRating}
+                    {orderPageInfo.deliveryRating}
                   </div>
                   <Image
                     src={"/star-icno.svg"}
@@ -133,7 +145,7 @@ const OrderPage = () => {
               {/* //// */}
               <div className={styles.totalReviewDiv}>
                 <div className={styles.totalReview}>
-                  {oderPageInfo.numDeliveryReviews}
+                  {orderPageInfo.numDeliveryReviews}
                 </div>
                 <div className={styles.reviewName}>Delivery Reviews</div>
               </div>
@@ -149,13 +161,13 @@ const OrderPage = () => {
               </Link>
             ))}
           </div>
-          <div className={styles.addressDiv}>{oderPageInfo.location}</div>
+          <div className={styles.addressDiv}>{orderPageInfo.location}</div>
         </div>
         <div className={styles.restaurantOpenCloseTimeDiv}>
           <span>Open now</span>
           <div className={styles.timeDiv}>
             <span>-</span>
-            {oderPageInfo.openingHours}
+            {orderPageInfo.openingHours}
           </div>
           <div className={styles.iconDiv}>
             <AiOutlineQuestionCircle />
