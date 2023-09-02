@@ -21,6 +21,7 @@ const deliveryRestaurantSchema = new Schema(
       required: true,
     },
     rating: Number,
+    basePrice: Number,
     restroImgUrl: String,
     numDiningReviews: Number,
     diningRating: Number,
