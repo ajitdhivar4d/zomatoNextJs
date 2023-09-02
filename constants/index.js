@@ -23,6 +23,31 @@ export const foodImgCarouselGridItems = [
     img: "/food-selection-cake-carousel.webp",
     name: "Cake",
   },
+  ///////////////
+  {
+    img: "/food-selection-Chicken-carousel.webp",
+    name: "Chicken",
+  },
+  {
+    img: "/food-selection-Burger-carousel.webp",
+    name: "Burger",
+  },
+  {
+    img: "/food-selection-Paneer-carousel.webp",
+    name: "Paneer",
+  },
+  {
+    img: "/food-selection-Thali-carousel.webp",
+    name: "Thali",
+  },
+  {
+    img: "/food-selection-Biryani-carousel.webp",
+    name: "Biryani",
+  },
+  {
+    img: "/food-selection-Rolls-carousel.webp",
+    name: "Rolls",
+  },
 ]
 
 export const TopbrandCarouselGridItems = [
