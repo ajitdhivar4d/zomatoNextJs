@@ -40,8 +40,9 @@ const OrderPage = () => {
   }
 
   console.log("oderPageInfo", orderPageInfo)
-  console.log("Categories:", orderPageInfo.categories)
+  console.log("Menu:", orderPageInfo.menu[0].items[0].imageUrl)
   const categories = orderPageInfo.categories
+  const topBrandHomeImg = orderPageInfo.menu[0].items[0].imageUrl
 
   const handleItemClick = (index) => {
     setActiveIndex(index)
@@ -52,7 +53,7 @@ const OrderPage = () => {
       <div className={styles.imgContainer}>
         <div className={styles.bigImgDiv}>
           <Image
-            src={orderPageInfo.restroImgUrl}
+            src={topBrandHomeImg}
             width={150}
             height={50}
             alt={"img"}

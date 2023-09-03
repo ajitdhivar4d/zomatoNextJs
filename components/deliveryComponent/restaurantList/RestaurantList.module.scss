@@ -49,6 +49,9 @@
   @include devices(mobile) {
     padding: 10px;
     margin: 10px 5px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e1dbdb;
+    background-color: #f3efef;
   }
 
   border-radius: 15px;
@@ -142,5 +145,35 @@
         height: 8px;
       }
     }
+  }
+}
+
+.addressPriceDiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+  gap: 10px;
+  @include devices(mobile) {
+    gap: 10px;
+    margin-top: 5px;
+  }
+}
+
+.addressP {
+  font-size: 14px;
+  @include devices(mobile) {
+    font-size: 10px;
+  }
+
+  span {
+    cursor: pointer;
+  }
+}
+
+.priceDiv {
+  font-size: 16px;
+  @include devices(mobile) {
+    font-size: 8px;
   }
 }

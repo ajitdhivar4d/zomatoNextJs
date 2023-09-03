@@ -1,4 +1,5 @@
-import React from "react"
+"use client"
+import React, { useState } from "react"
 import styles from "./RestaurantList.module.scss"
 import Image from "next/image"
 import { useSelector } from "react-redux"
@@ -23,17 +24,19 @@ const RestaurantList = () => {
     // Save OrderPageInfo to localStorage
     localStorage.setItem("orderPageInfo", JSON.stringify(restaurant))
   }
-  console.log(filteredRestaurants[0].basePrice)
+
+  function truncateAddress(address) {
+    const parts = address.split(",")
+    return parts.length > 0 ? parts[0] : address
+  }
+
   return (
     <div className={styles.mainDiv}>
       <h1>Delivery Restaurants in Jaipur</h1>
       <div className={styles.restaurantGridDiv}>
         {filteredRestaurants.map((restaurant) => (
-          <Link href={`${apiUrl}/order`} key={restaurant._id}>
-            <div
-              className={styles.restaurantCard}
-              onClick={() => handleRestaurantClick(restaurant)}
-            >
+          <div key={restaurant._id} className={styles.restaurantCard}>
+            <Link href={`${apiUrl}/order`}>
               <div className={styles.restaurantCardImgContainer}>
                 <Image
                   src={restaurant.restroImgUrl}
@@ -42,31 +45,33 @@ const RestaurantList = () => {
                   width={300}
                   height={200}
                   loading="lazy"
+                  onClick={() => handleRestaurantClick(restaurant)}
                 />
               </div>
-              <div className={styles.restroNameRatDiv}>
-                <h4 className={styles.restroNameH4}>{restaurant.name}</h4>
-                <div className={styles.restroRatDiv}>
-                  <div className={styles.ratGreenDiv}>
-                    <div className={styles.ratTextDiv}>{restaurant.rating}</div>
-                    <Image
-                      src={"/star-icno.svg"}
-                      alt={""}
-                      className={styles.starIcon}
-                      width={150}
-                      height={50}
-                      loading="lazy"
-                    />
-                  </div>
+            </Link>
+            <div className={styles.restroNameRatDiv}>
+              <h4 className={styles.restroNameH4}>{restaurant.name}</h4>
+              <div className={styles.restroRatDiv}>
+                <div className={styles.ratGreenDiv}>
+                  <div className={styles.ratTextDiv}>{restaurant.rating}</div>
+                  <Image
+                    src={"/star-icno.svg"}
+                    alt={""}
+                    className={styles.starIcon}
+                    width={150}
+                    height={50}
+                    loading="lazy"
+                  />
                 </div>
               </div>
-              <div className={styles.addressPriceDiv}>
-                <p className={styles.addressP}>{restaurant.location}</p>
-                <div className={styles.priceDiv}>₹{restaurant.basePrice}</div>
-                {console.log(restaurant.basePrice)}
-              </div>
             </div>
-          </Link>
+            <div className={styles.addressPriceDiv}>
+              <p className={styles.addressP}>
+                {truncateAddress(restaurant.location)}...
+              </p>
+              <div className={styles.priceDiv}>₹{restaurant.basePrice}</div>
+            </div>
+          </div>
         ))}
       </div>
     </div>

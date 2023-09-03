@@ -8,14 +8,20 @@ import NightLifeComponent from "../nightLifeComponent/NightLifeComponent"
 import { useDispatch } from "react-redux"
 import { setDeliRestaurants } from "@/redux/features/deliRestaurantSlice"
 import { setDiningRestaurants } from "@/redux/features/diningRestaurantSlice"
+import { setTopBrandRestaurants } from "@/redux/features/topBrandRestaurantSlice"
 
-const VenueViewSelector = ({ deliRestaurantData, diningRestaurantData }) => {
+const VenueViewSelector = ({
+  deliRestaurantData,
+  diningRestaurantData,
+  topBrandRestaurantData,
+}) => {
   const [activeIndex, setActiveIndex] = useState(0)
   const dispatch = useDispatch()
 
   useEffect(() => {
     dispatch(setDeliRestaurants(deliRestaurantData))
     dispatch(setDiningRestaurants(diningRestaurantData))
+    dispatch(setTopBrandRestaurants(topBrandRestaurantData))
   }, [])
 
   const options = [
